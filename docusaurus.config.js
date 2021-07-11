@@ -24,7 +24,11 @@ module.exports = {
           position: 'left',
           label: 'Documentations',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: 'https://blog.hentaios.com',
+          label: 'Blog',
+          position: 'left'
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

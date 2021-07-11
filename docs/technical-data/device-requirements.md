@@ -1,10 +1,10 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 # Device Requirements
 
-The Device: 
+The Device:
 
 - [C-0-0] MUST built with [SELinux](https://source.android.com/security/selinux) Enforcing.
 

@@ -14,7 +14,7 @@ A smooth user interface can be provided to the end user if there are certain min
 
 Performance can fluctuate dramatically for high-performance long-running apps, either because of the other apps running in the background or the CPU throttling due to scheduler.
 
-Maintainers: 
+Maintainers:
 
 - [C-0-0] MUST NOT using Touch Boosting and instead, use libperf.
 
@@ -44,13 +44,13 @@ If Maintainers include ZRAM, they:
 
 ### The use of compilation flags
 
-Maintainers: 
+Maintainers:
 
 - [C-0-1] MUST NOT generically build your builds with generic CPU variant. Use your SoC-specific optimization flags instead.
 
 ### Kernel Default Configurations
 
-Maintainers: 
+Maintainers:
 
 - [D-0-1] MUST ship kernel default configuration (known as "defconfig") as-is without any masking.
 - [D-SR] STRONGLY RECOMMENDED to follows [kernel/configs](https://android.googlesource.com/kernel/configs/).

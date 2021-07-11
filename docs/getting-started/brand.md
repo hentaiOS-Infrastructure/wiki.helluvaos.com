@@ -1,8 +1,10 @@
+import FullLogo from '@site/static/img/full-logo.svg';
+
 # Brand Guidelines
 
 The helluvaOS and hentaiOS name, the helluvaOS and hentaiOS logo, and other Raphielscape trademarks are the property of Raphielscape LLC.
 
-If you want to use these brands to indicate their association with your device or build, adhere to the guidelines on this page. All creatives that include or reference helluvaOS, hentaiOS, or Raphielscape trademarks must be reviewed and approved by the helluvaOS / hentaiOS brand team.
+If you want to use these brands to indicate their association with your device or build, adhere to the guidelines on this page. All creatives that include or reference helluvaOS, hentaiOS, or Raphielscape trademarks must be reviewed and approved by the Raphielscape brand team.
 
 ## hentaiOS and/or helluvaOS
 
@@ -16,12 +18,10 @@ The use of hentaiOS and helluvaOS on a marketing materials related to the builds
 
 - Any use of hentaiOS and/or helluvaOS must include this attribution in your communication:
 
-> hentaiOS and/or hentaiOS is a trademark of Raphielscape LLC.
+> hentaiOS and/or helluvaOS is a trademark of Raphielscape LLC.
 
 ## hentaiOS and helluvaOS Logo
 
 Unless expressly authorized, the hentaiOS and helluvaOS logo and custom typeface may not be used.
 
-## Visual Brand Guidelines
-
-For Visual Brand Guidelines information, Open the following Link.
+<FullLogo className="themedStaticAssets" />

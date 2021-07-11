@@ -31,3 +31,11 @@
 .navbar__brand {
   margin-right: 0;
 }
+
+html[data-theme='light'] .themedStaticAssets [fill='#282828'] {
+  fill: black;
+}
+
+html[data-theme='dark'] .themedStaticAssets [fill='#282828'] {
+  fill: white;
+}

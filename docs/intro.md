@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Amogus
+# Insanity
 
-helluvaOS is a hell of a ROM, focused on amogus.
+helluvaOS is a hell of a ROM, focused on amogus, egg catapults, and speed demon.
 
 ## Features
 
@@ -19,3 +19,7 @@ Also, we keeping:
 
 - SafetyNet for your MacDolan app
 - Pixel stuff that's lit on fire
+
+## Install
+Installing helluvaOS is a complicated borealis-style cross-country fastboot-style
+installation except objectively defined else. and you know what? it's not complicated.
