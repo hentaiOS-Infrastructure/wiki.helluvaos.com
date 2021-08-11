@@ -38,6 +38,11 @@ We normally pushing an update after Google published [Security Bulletin](https:/
 Don't even ask for ETA.
 :::
 
+### Can I downgrade?
+
+No, we don't recommend using old version of helluvaOS to avoid any potential issues.
+And you may lose your data if you attempting to downgrade.
+
 ### Do I have to wipe my data?
 Updates generally don't need a data wipe, if it does, we will notify you through the changelog of the build. Else, like first-install from other ROM, a Data wipe is required.
 

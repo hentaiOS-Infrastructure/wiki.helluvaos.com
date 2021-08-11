@@ -34,10 +34,12 @@ Yes, you see it right, we have a pretty solid "Do stuff in Google way if they de
 This part will explain how we made Paimon Eating feels more "Yes"
 
 1. Optimized Routines and Libraries
-2. Workaround for Unity tendency to always runs at Big and Prime (for devices with Prime CPU)
-3. Workaround for another Unity broken stuff like their awful Garbage Collector
-4. Fix for inconsistent Vsync that happens in some worlds
-5. Neuron activating way for making sure Paimon runs optimal with activated almonds
+2. Fix for inconsistent Vsync that happens in some worlds
+3. Neuron activating way for making sure Paimon runs optimal with activated almonds
+
+:::tip NOTES
+The way for Paimon eating is not the same for all devices, refer to your device maintainer for more details.
+:::
 
 ## SafetyNet
 

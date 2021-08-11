@@ -6,6 +6,12 @@ sidebar_position: 1
 
 helluvaOS is a hell of a ROM, focused on amogus, egg catapults, and speed demon.
 
+Here's our basic furries that you might already know:
+
+- Raphiel (Rapherion) Rollerscaperers (raphielscape) - Founder, Lead Developer
+- Dynetev - Co-Founder, Co-Lead Developer
+- Argraur - Co-Founder
+
 ## Features
 
 helluvaOS offers a lot of fire, like:
@@ -19,6 +25,8 @@ Also, we keeping:
 
 - SafetyNet for your MacDolan app
 - Pixel stuff that's lit on fire
+
+Further more, Read On
 
 ## Install
 Installing helluvaOS is a complicated borealis-style cross-country fastboot-style

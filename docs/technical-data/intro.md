@@ -12,7 +12,7 @@ As used in this technical data, a "device maintainer" or "maintainer" is a perso
 
 To be considered compatible with helluvaOS/hentaiOS, builds MUST meet the requirements presented in this Techincal Data.
 
-It is the responsibility of the device maintainer to ensure compatibility with this Technical Data. 
+It is the responsibility of the device maintainer to ensure compatibility with this Technical Data.
 
 ## Technical Data Structure
 
@@ -57,10 +57,17 @@ For the major differences in hardware configuration by device type, see the devi
 
 An **Handheld device** refers to builds that is typically used by holding it in the hand, such as an Phone, or tablet.
 
-The device are classified as Handheld if they meet all the following criteria: 
+The device are classified as Handheld if they meet all the following criteria:
 
 - Have a power source that provides mobility, such as a battery.
 - Have a physical diagonal screen size in the range of 3.3 inches (or 2.5 inches for devices which launched on an API level earlier than API 30) to 8 inches.
 - Have at least msm8998 (Snapdragon 835) SoC at minimum.
 
 The additional requirements in the rest of this section available on [Android CDD Section 2.2.1](https://source.android.com/compatibility/android-cdd#2_2_1_hardware).
+
+### Why are Legacy SoC no longer supported?
+
+helluvaOS aims to provide reasonably stable and performant ROM for a wide range of devices. It can't do that once device support for a SoC has been deprecated and no
+longer maintaned. Even if the community is able to maintain a SoC, it will be very difficult to make it fit into helluvaOS/hentaiOS. Unlike many other platforms, helluvaOS/hentaiOS has a much higher minimum standard than simply having devices that fully functional, as they also need to provide the expected level of Performance.
+
+helluvaOS also has a high standard for performance of the hardware, and this standards are regularly advancing. The rapid pace of improvements has been slowing down, but each hardware generation still brings major imporvements. Over time, the older hardware become a substantial liability and holds back the project.

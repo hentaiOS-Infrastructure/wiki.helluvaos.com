@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 import FullLogo from '@site/static/img/full-logo.svg';
 
 # Brand Guidelines
