@@ -38,7 +38,7 @@ If Maintainers include ZRAM, they:
 
 - SHOULD ship ZRAM depending on your device RAM size.
 
-- [C-1-0] MUST NOT keeping the ZRAM compression backend in LZO. We recommend you to use Zstandard (zstd) as default ZRAM and ZSWAP (if your devices use this, Smugsungs?) compression backend as it'll be beneficial for the compression ratio and faster compared to LZO, you also can use lz4 for the compression backend if you favoring performance over compression ratio. [Example commit from Disrupt Kernel Xiaomi-sdm845 for zstd zram](https://github.com/RaphielGang/spins_kernel_xiaomi_sdm845/commit/e8cac3f9a761224f5355355eeb5513b67f770fc9).
+- [C-1-0] MUST NOT keeping the ZRAM compression backend in LZO. We recommend you to use Zstandard (zstd) as default ZRAM and ZSWAP (if your devices use this, Smugsungs?) compression backend as it'll be beneficial for the compression ratio and faster compared to LZO, you also can use lz4 for the compression backend if you favoring performance over compression ratio by picking [linus/torvalds/3d711a382735d2c34d3ba2075a5aa83a894f4a57](https://github.com/torvalds/linux/commit/3d711a382735d2c34d3ba2075a5aa83a894f4a57).
 
 - [C-SR] STRONGLY RECOMMENDED to keep compression backend up-to-date as possible with Mainline.
 
