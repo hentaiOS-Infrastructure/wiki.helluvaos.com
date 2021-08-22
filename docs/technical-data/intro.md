@@ -27,15 +27,15 @@ Requirement ID is assigned for MUST requirements
 Each ID is defined as below:
 
 - Device Type ID
-    - C : Core (Requirements that applied to any devices)
-    - D : Device-specific
+  - C : Core (Requirements that applied to any devices)
+  - D : Device-specific
 
 - Condition ID
-    - When the requirement is unconditional, this ID is set as 0.
-    - When the requirement is conditional, 1 is assigned for the 1st condition and the number increments by 1 within the same section and the same device type.
+  - When the requirement is unconditional, this ID is set as 0.
+  - When the requirement is conditional, 1 is assigned for the 1st condition and the number increments by 1 within the same section and the same device type.
 
 - Requirement ID
-    - This ID starts from 0 and increments by 1 within the same section and the same condition.
+  - This ID starts from 0 and increments by 1 within the same section and the same condition.
 
 ### Requirement ID for Device-specific changes
 

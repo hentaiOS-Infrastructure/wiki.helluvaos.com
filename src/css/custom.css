@@ -9,18 +9,32 @@
 @import "inter.css";
 
 :root {
-  --ifm-color-primary: #D30F54;
-  --ifm-color-primary-dark: #970756;
-  --ifm-color-primary-darker: #7A0451;
-  --ifm-color-primary-darkest: #7A0451;
-  --ifm-color-primary-light: #E4456D;
-  --ifm-color-primary-lighter: #F16B7F;
-  --ifm-color-primary-lightest: #FA9DA2;
   --ifm-code-font-size: 95%;
 }
 
+html[data-theme="light"] {
+  --ifm-color-primary: #D30F54;
+  --ifm-color-primary-dark: #AD337EFF;
+  --ifm-color-primary-darker: #892964FF;
+  --ifm-color-primary-darkest: #671E4BFF;
+  --ifm-color-primary-lighest: #FF4CBAFF;
+  --ifm-color-primary-lighter: #D8409DFF;
+  --ifm-color-primary-light: #B33582FF;
+}
+
+html[data-theme="dark"] {
+  --ifm-color-primary: #FF5994;
+  --ifm-color-primary-dark: #FF83AE;
+  --ifm-color-primary-darker: #FF5994;
+  --ifm-color-primary-darkest: #E93B8C;
+  --ifm-color-primary-light: #FFB9D2;
+  --ifm-color-primary-lighter: #FFCBDD;
+  --ifm-color-primary-lightest: #FFD8E5;
+
+  --ifm-color-content-secondary: #E745A8FF;
+}
+
 .docusaurus-highlight-code-line {
-  background-color: #D30F54;
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
@@ -40,4 +54,9 @@ html[data-theme='light'] .themedStaticAssets [fill='#282828'] {
 
 html[data-theme='dark'] .themedStaticAssets [fill='#282828'] {
   fill: white;
+}
+
+blockquote {
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
 }

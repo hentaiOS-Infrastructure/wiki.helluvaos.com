@@ -17,7 +17,6 @@ The Device:
 - [C-0-4] MUST not including any unused overlays and packages. This includes but is not limited to packages not being built, packages that didn't work, obsolete and deprecated packages, untested and placebo "tweaks" or any packages that introduced any unnecessary and/or unwanted features.
 
 - [C-0-5] MUST NOT require a lot of patches, and if a patch has to be applied for it, it has to be under the following
-
-    - Needed for building the image, boot, or having the device working properly (e.g Fingerprint-On-Display)
-    - Proper authorship and commit message
-    - Be as minimal and polished as possible
+  - Needed for building the image, boot, or having the device working properly (e.g Fingerprint-On-Display)
+  - Proper authorship and commit message
+  - Be as minimal and polished as possible

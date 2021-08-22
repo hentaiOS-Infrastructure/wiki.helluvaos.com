@@ -19,8 +19,7 @@ sidebar_position: 2
 5. [C-0-4] In the event of any disagreements between maintainers, sort them via Direct Messages, don't take any of that into chats or threads, approach the Internal Boards if you want something sorted out quickly.
 
 6. [C-0-5] MUST NOT add any of the following:
-
-    - Any features in their device-specific packages, e.g XiaomiParts, KCAL, Camera API2 Enforcement, etcetera, in an exception if that feature is available on stock firmware, e.g Alert Slider and Offscreen Gestures for OnePlus Devices, Fingerprint Gestures, Dirac Sound, or any Audio Enhancer that's part of stock firmware, otherwise, it can't be shipped.
+    > Any features in their device-specific packages, e.g XiaomiParts, KCAL, Camera API2 Enforcement, etcetera, in an exception if that feature is available on stock firmware, e.g Alert Slider and Offscreen Gestures for OnePlus Devices, Fingerprint Gestures, Dirac Sound, or any Audio Enhancer that's part of stock firmware, otherwise, it can't be shipped.
 
 7. [C-0-6] In the case of A/B or Dynamic Partitioned devices, you MUST NOT ship TWRP prebuilt, it MUST ship AOSP Recovery.
 
@@ -30,7 +29,7 @@ sidebar_position: 2
 
 Before you apply to add your device into Official Devices
 
-If you were unable to follow any of these following requirements, you're unfit for the maintainer status. No question, and You (as Maintainer): 
+If you were unable to follow any of these following requirements, you're unfit for the maintainer status. No question, and You (as Maintainer):
 
 1. [C-0-0] MUST own the device. Blind and untested builds is not allowed. Devices that have minimal hardware difference are allowed to be maintained, as long you still maintaining the root device.
 
