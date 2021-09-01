@@ -1,6 +1,6 @@
-http://localhost
-
-encode zstd gzip
-root * /srv
-try_files {path}.html {path}
-file_server
+:80 {
+    encode zstd gzip
+    root * /srv
+    try_files {path}.html {path}
+    file_server
+}
