@@ -22,7 +22,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Documentations',
+          label: 'Docs',
         },
         {
           to: 'https://blog.hentaios.com',
@@ -39,6 +39,12 @@ module.exports = {
           label: 'Community',
           position: 'left',
           activeBaseRegex: '/community/',
+        },
+        {
+          to: '/devtech/devtech',
+          label: 'DevTech',
+          position: 'left',
+          activeBaseRegex: '/devtech/',
         },
       ],
     },
@@ -58,16 +64,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Telegram',
+              href: 'https://t.me/hentaiOSchat',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Reddit',
+              href: 'https://www.reddit.com/r/hentaiOS/',
             },
           ],
         },
@@ -76,7 +78,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/hentaiOS',
             },
           ],
         },
@@ -84,9 +86,8 @@ module.exports = {
       logo: {
         alt: 'hentaiOS Open Source Logo',
         src: 'img/oss_logo.svg',
-        href: 'https://opensource.hentaios.com'
       },
-      copyright: `Copyright © ${new Date().getFullYear()} hentaiOS. Built with Docusaurus.<br><span class="footer__link-item">Android is a trademark of Google LLC.</span>`,
+      copyright: `Copyright © ${new Date().getFullYear()} hentaiOS.<br><span class="footer__link-item">Android is a trademark of Google LLC.</span>`,
     },
   },
   presets: [
@@ -113,6 +114,15 @@ module.exports = {
         path: 'community',
         routeBasePath: 'community',
         sidebarPath: require.resolve('./sidebarsCommunity.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'devtech',
+        path: 'devtech',
+        routeBasePath: 'devtech',
+        sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
   ],

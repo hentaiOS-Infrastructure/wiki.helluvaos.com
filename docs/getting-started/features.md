@@ -7,12 +7,13 @@ sidebar_position: 1
 
 So, welcome to the first page of our introduction to hell, here, I will explain what we do to make sure your Gaming Experience as smooth as twerking Amogus.
 
-1. Optimized Instructions and Bionic Libraries
-2. Better handling of touch latency
-3. Reduced overhead in several parts
-4. Tuned boosting algorithms
-5. Tuned thermal profiles
-6. Display recalibrations
+1. Paimon eating, this thing absolutely oriented on this part
+2. Google if they developed Pixel in hell
+3. Better amogus gameplay experience
+4. Questionable engineering choices
+5. Parade of destruction
+6. Melodrama
+7. No gore
 
 :::tip NOTES
 Features may vary between supported devices, refer to your device maintainer for more details.
