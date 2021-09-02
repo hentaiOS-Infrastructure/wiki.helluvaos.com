@@ -8,6 +8,6 @@ Xiaomi Gourami is a common device which encapsulates and defines the term "Compe
 
 ## Grease Guide
 
-- [Installation Guide](aaa)
+- Installation Guide
 
 ## Updating
