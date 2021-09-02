@@ -9,6 +9,10 @@ import TabItem from '@theme/TabItem';
 
 This is a guide for installing helluvaOS using the command line.
 
+:::caution May not reflect all devices
+This documentation is generically written and may not include specific guides for your specific device, refer to your device documentation for more information.
+:::
+
 ## Prerequisites
 
 You should have a USB Cable for attaching the device to a laptop or desktop. Whenever possible, use the high quality standards-compliant USB Type-C cable that comes with your device. If your computer doesn't have any USB Type-C ports, you'll need a high quality USB Type-A to USB Type-C cable.
