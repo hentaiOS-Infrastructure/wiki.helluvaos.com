@@ -2,8 +2,10 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
+import Accordian from "../components/Accordian/Accordian";
 import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
@@ -26,7 +28,9 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <Switch>
+          <Route path="/" component={Accordian} />
+        </Switch>
       </main>
     </Layout>
   );
