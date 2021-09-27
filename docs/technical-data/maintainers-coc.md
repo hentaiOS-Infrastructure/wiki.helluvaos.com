@@ -35,11 +35,13 @@ If you were unable to follow any of these following requirements, you're unfit f
 
 2. [C-0-1] MUST have a good knowledge of Git and Repo.
 
-3. [C-0-2] MUST have your device sources public with proper authorships for each commit.
+3. [C-0-2] STRONGLY RECOMMENDED have your device sources public.
 
-4. [C-0-3] MUST amending the former requirement, the source of the device you have to publish is the one the Real one that's used to build the image.
+4. [C-0-3] MUST have your device sources commits properly authorshipped.
 
-5. [C-0-4] MUST following the [Device Requirements](device-requirements).
+4. [C-0-4] MUST amending the former requirement, the source of the device you have to publish is the one the Real one that's used to build the image.
+
+5. [C-0-5] MUST following the [Device Requirements](device-requirements).
 
 After applying and your application is accepted, you'll receive an E-mail or Direct Message from the recruitment and device board committee about the acceptance of your application.
 
