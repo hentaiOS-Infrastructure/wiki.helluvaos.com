@@ -13,6 +13,7 @@ Here's our basic furries that you might already know:
 - Raphiel (Rapherion) Rollerscaperers (raphielscape) - Founder, Lead Developer
 - Dynetev - Co-Founder, Co-Lead Developer
 - Argraur - Co-Founder
+- Rohan Hasabe (Hasaber8) - Co-Founder, Moto-Furry
 
 ## Features
 
