@@ -71,7 +71,7 @@ const Accordian = () => {
                             }
                           >
                             <MdKeyboardArrowUp
-                              style={{ color: "#1C1E21", fontSize: "27px" }}
+                              style={{ color: "#c60043", fontSize: "27px" }}
                             />
                           </div>
                         }
