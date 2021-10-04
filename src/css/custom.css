@@ -23,15 +23,15 @@ html[data-theme="light"] {
 }
 
 html[data-theme="dark"] {
-  --ifm-color-primary: #FF5994;
+  --ifm-color-primary: #D30F54;
   --ifm-color-primary-dark: #FF83AE;
-  --ifm-color-primary-darker: #FF5994;
+  --ifm-color-primary-darker: #D30F54;
   --ifm-color-primary-darkest: #E93B8C;
   --ifm-color-primary-light: #FFB9D2;
   --ifm-color-primary-lighter: #FFCBDD;
   --ifm-color-primary-lightest: #FFD8E5;
 
-  --ifm-color-content-secondary: #E745A8FF;
+  --ifm-color-content-secondary: #D30F54;
 }
 
 .docusaurus-highlight-code-line {
