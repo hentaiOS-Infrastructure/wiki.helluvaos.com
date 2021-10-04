@@ -73,9 +73,21 @@
 }
 
 .accord-dark {
-  background: #413D4B;
+  background: rgb(25, 25, 25);
   margin: 0;
   border-radius: 10;
+}
+
+.accord-dark h3 {
+  color: white;
+}
+
+.accord-light h3 {
+  color: black;
+}
+
+#white-text {
+  color: white;
 }
 
 .accordian-container{
