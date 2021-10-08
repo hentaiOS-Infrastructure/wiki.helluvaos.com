@@ -44,6 +44,10 @@ html[data-theme="dark"] {
   --ifm-footer-background-color: #D30F54;
 }
 
+.footer__link-item:hover {
+  color: var(--ifm-footer-link-color);
+}
+
 .navbar__brand {
   margin-right: 0;
 }
