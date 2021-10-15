@@ -23,10 +23,10 @@ You should generally avoid using USB Hubs such as the front panel USB hub on a d
 
 Supported Operating Systems for install:
 
- - Windows (7 or later)
- - macOS (10.12 or later)
- - Arch Linux
- - Debian 10 (buster) or later
+- Windows (7 or later)
+- macOS (10.12 or later)
+- Arch Linux
+- Debian 10 (buster) or later
 
 Make sure your operating system is up-to-date before proceeding.
 
@@ -38,7 +38,7 @@ Use the same terminal for the whole installation process. If you close it, you'l
 
 On Windows, run the following command to remove PowerShell's legacy curl alias for the current shell to avoid needing to reference it as `curl.exe` instead of `curl`:
 
-```
+```shell
 Remove-Item Alias:Curl
 ```
 
@@ -48,7 +48,7 @@ You need an updated copy of the `fastboot` tool and the directory containing it 
 
 On Arch Linux, install `android-tools` and skip the section below on using the standalone release of platform-tools from Android:
 
-```
+```sh
 sudo pacman -S android-tools
 ```
 

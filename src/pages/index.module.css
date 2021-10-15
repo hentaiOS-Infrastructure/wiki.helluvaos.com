@@ -24,18 +24,8 @@
   justify-content: center;
 }
 
-@font-face {
-  font-family: "PlusJakartaSans";
-  src: local("PlusJakartaSans"),
-    url("../assets/font/PlusJakartaSans-Medium.woff") format("woff"),
-    url("../assets/font/PlusJakartaSans-Medium.woff2") format("woff2"),
-    url("../assets/font/PlusJakartaSans-Bold.woff") format("woff"),
-    url("../assets/font/PlusJakartaSans-Bold.woff2") format("woff2");
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "PlusJakartaSans";
 }
