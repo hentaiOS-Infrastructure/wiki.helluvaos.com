@@ -19,9 +19,13 @@ sidebar_position: 2
 5. [C-0-4] In the event of any disagreements between maintainers, sort them via Direct Messages, don't take any of that into chats or threads, approach the Internal Boards if you want something sorted out quickly.
 
 6. [C-0-5] MUST NOT add any of the following:
-    > Any features in their device-specific packages, e.g XiaomiParts, KCAL, Camera API2 Enforcement, etcetera, in an exception if that feature is available on stock firmware, e.g Alert Slider and Offscreen Gestures for OnePlus Devices, Fingerprint Gestures, Dirac Sound, or any Audio Enhancer that's part of stock firmware, otherwise, it can't be shipped.
+    > Any features in their device-specific packages, e.g XiaomiParts, KCAL, Camera API2 Enforcement, etcetera, in an exception if that feature is available on stock firmware, e.g Alert Slider and Offscreen Gestures for OnePlus Devices, Fingerprint Gestures, Dirac Sound, or any Audio Enhancer that's part of stock firmware (with exception of any Dolby products), otherwise, it can't be shipped.
 
-7. [C-0-6] In the case of A/B or Dynamic Partitioned devices, you MUST NOT ship TWRP prebuilt, it MUST ship AOSP Recovery.
+7. [C-0-6] You MUST NOT ship TWRP prebuilt, it MUST ship AOSP Recovery.
+
+8. [C-0-7] You MUST NOT including proprietary dependencies into Public Tree except if it distributed as a BLOB (Binary Large OBject).
+
+9. [C-0-8] You MUST have checked that your device tree does not include any BLOB with Copyright, for example, Megvii.
 
 **If any of these rules are violated, The Management Board will take direct action against the maintainer with or without prior warning.**
 
@@ -39,9 +43,11 @@ If you were unable to follow any of these following requirements, you're unfit f
 
 4. [C-0-3] MUST have your device sources commits properly authorshipped.
 
-4. [C-0-4] MUST amending the former requirement, the source of the device you have to publish is the one the Real one that's used to build the image.
+5. [C-SR] STRONGLY RECOMMENDED to include BUG ticket for changes if available.
 
-5. [C-0-5] MUST following the [Device Requirements](device-requirements).
+6. [C-0-4] MUST amending the former requirement, the source of the device you have to publish is the one the Real one that's used to build the image.
+
+7. [C-0-5] MUST following the [Device Requirements](device-requirements).
 
 After applying and your application is accepted, you'll receive an E-mail or Direct Message from the recruitment and device board committee about the acceptance of your application.
 

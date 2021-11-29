@@ -94,13 +94,13 @@ Next, add the directory containing the extracted files to the `PATH` environment
 
 On Debian and macOS, run the following command:
 
-```
+``` bash
 export PATH=$PATH:$(pwd)/platform-tools
 ```
 
 On Windows, run the following command:
 
-```
+``` shell
 $env:PATH = $env:PATH + ";$(pwd)\platform-tools"
 ```
 
@@ -112,7 +112,7 @@ Check the output of `fastboot --version` to make sure the version is at least `2
 
 Example of the output of `fastboot --version` on Arch Linux:
 
-```
+``` shell
 fastboot version 31.0.0p1-android-tools
 Installed as /usr/bin/fastboot
 ```
@@ -124,13 +124,13 @@ This is not necessary on macOS or Windows.
 
 On Arch Linux, run the following command:
 
-```
+``` bash
 sudo pacman -S android-udev
 ```
 
 On Debian, run the following command:
 
-```
+``` bash
 sudo apt install android-sdk-platform-tools-common
 ```
 
@@ -148,17 +148,15 @@ Extract the downloaded factory image package then navigate to the newly created 
 
 For Windows, run the following command:
 
-```
+``` shell
 flash-all.bat
 ```
 
 For macOS and Linux, run the following command:
 
-```
+``` sh
 ./flash-all.sh
 ```
 
 Don't touch, unplug, or remove the device until the installation is complete.
 Your phone will restart several times during the installation process and you'll need to wait for it to finish. It will boot into the OS once the installation is complete.
-
-### Full OTA

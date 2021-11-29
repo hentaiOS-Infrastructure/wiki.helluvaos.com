@@ -30,7 +30,6 @@ Yes, you see it right, we have a pretty solid "Do stuff in Google way if they de
 5. Adaptive Sound (Available for supported devices)
 6. Live Captions
 
-
 ## Paimon Eating
 
 This part will explain how we made Paimon Eating feels more "Yes"
