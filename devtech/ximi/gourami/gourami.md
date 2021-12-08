@@ -6,8 +6,10 @@ sidebar_position: 1
 
 Xiaomi Gourami is a common device which encapsulates and defines the term "Competitive Awfulness", made by Xiaomi with Qualcomm KONA (sm8250) SoC.
 
-## Grease Guide
+## Portals
 
-- Installation Guide
+- [Support Chat](https://t.me/hentaiOSkona)
 
-## Updating
+## Just-that-you-know
+
+- [Adaptive Charging](adaptive-charging)

@@ -27,6 +27,7 @@ Maintainers:
 - [C-SR] STRONGLY RECOMMENDED to ship PELT Util Halflife by picking or forward-porting (for Linux 4.19.y upwards) [kernel/common/cb22d9159761cb32c35a5f9399b8011fcdae654b](https://android.googlesource.com/kernel/common/+/cb22d9159761cb32c35a5f9399b8011fcdae654b) and [kernel/common/3c207c880674e5d29aa1c9b7e94d812383c442ee](https://android.googlesource.com/kernel/common/+/3c207c880674e5d29aa1c9b7e94d812383c442ee).
 
 - [D-SR] STRONGLY RECOMMENDED to tune your CPUSet according to your SoC, every SoC has its specific CPUSet tuning, so make sure you correctly tune it according to your SoC.
+    We suggest that you avoid assigning CPU 0 and 1 to tasks other than TA (Top-App) as that it's generally utilizing CPU 0 and 1 extensively.
 
 - [C-SR] STRONGLY RECOMMENDED to ship Google's workaround for Unity Engine CPU Affinity by picking [google/redbull/69a034bb62b8841c1774617fb9b7af0ccf475b1e](https://android.googlesource.com/device/google/redbull/+/69a034bb62b8841c1774617fb9b7af0ccf475b1e) and [google/redbull/a5137c1c9150e6617d2d62575789455bedcfd27d](https://android.googlesource.com/device/google/redbull/+/a5137c1c9150e6617d2d62575789455bedcfd27d).
 
