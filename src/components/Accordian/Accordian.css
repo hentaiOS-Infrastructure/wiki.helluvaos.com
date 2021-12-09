@@ -92,4 +92,5 @@
 
 .accordian-container{
   min-width: -webkit-fill-available;
+  min-width: -moz-available;
 }
