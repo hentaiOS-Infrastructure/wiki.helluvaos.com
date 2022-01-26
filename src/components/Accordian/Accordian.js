@@ -5,7 +5,7 @@ import AccordionDetails from "@material-ui/core/AccordionDetails";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
 import Typography from "@material-ui/core/Typography";
 import { MdKeyboardArrowUp } from "react-icons/md";
-import useThemeContext from "@theme/hooks/useThemeContext";
+import {useColorMode} from '@docusaurus/theme-common';
 import "./Accordian.css";
 import { data } from "./data";
 
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
 const Accordian = () => {
   const classes = useStyles();
   const [expanded, setExpanded] = useState(false);
-  const { isDarkTheme } = useThemeContext();
+  const { isDarkTheme } = useColorMode();
 
   const handleChange = (panel) => (e, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
