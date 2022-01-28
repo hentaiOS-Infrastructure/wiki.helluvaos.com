@@ -23,10 +23,10 @@ You should generally avoid using USB Hubs such as the front panel USB hub on a d
 
 Supported Operating Systems for install:
 
-- Windows (7 or later)
-- macOS (10.12 or later)
 - Arch Linux
 - Debian 10 (buster) or later
+- Windows (7 or later)
+- macOS (10.12 or later)
 
 Make sure your operating system is up-to-date before proceeding.
 
@@ -92,17 +92,33 @@ To download and extract the standalone release of platform-tools from Debian, ru
 
 Next, add the directory containing the extracted files to the `PATH` environment variable:
 
-On Debian and macOS, run the following command:
+<Tabs
+    defaultValue="debian"
+    values={[
+        {label: 'Debian', value: 'debian'},
+        {label: 'macOS', value: 'macos'},
+        {label: 'Windows', value: 'windows'},
+    ]}>
 
-``` bash
-export PATH=$PATH:$(pwd)/platform-tools
-```
+<TabItem value="debian">
 
-On Windows, run the following command:
+    export PATH=$PATH:$(pwd)/platform-tools
 
-``` shell
-$env:PATH = $env:PATH + ";$(pwd)\platform-tools"
-```
+</TabItem>
+
+<TabItem value="macos">
+
+    export PATH=$PATH:$(pwd)/platform-tools
+
+</TabItem>
+
+<TabItem value="windows">
+
+    $env:PATH = $env:PATH + ";$(pwd)\platform-tools"
+
+</TabItem>
+
+</Tabs>
 
 This only changes the `PATH` environment variable for the current shell.
 

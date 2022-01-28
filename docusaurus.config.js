@@ -1,5 +1,8 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+const config = {
   title: 'hentaiOS Docuwiki',
   tagline: 'mmmmmmmmmmmmmmmmmm',
   url: 'https://hentaios.com',
@@ -10,6 +13,10 @@ module.exports = {
   organizationName: 'hentaiOS-Infrastructure', // Usually your GitHub org/user name.
   projectName: 'dokument', // Usually your repo name.
   themeConfig: {
+    prism: {
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/github'),
+    },
     navbar: {
       hideOnScroll: true,
       logo: {
@@ -127,3 +134,5 @@ module.exports = {
     ],
   ],
 };
+
+module.exports = config;

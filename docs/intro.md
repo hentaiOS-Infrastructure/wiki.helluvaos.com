@@ -10,7 +10,7 @@ means of international dispute.
 
 Here's our basic furries that you might already know:
 
-- Raphiel (Rapherion) Rollerscaperers (raphielscape) - Founder, Lead Developer
+- Raphiel (Rapherion) Rollerscaperers (raphielscape) - Founder, Lead Developer, BDFL
 - Dynetev - Co-Founder, Co-Lead Developer
 - Argraur - Co-Founder
 - Rohan Hasabe (Hasaber8) - Co-Founder, Moto-Furry
