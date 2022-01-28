@@ -31,6 +31,7 @@
     73%
   );
 
+  --ifm-background-surface-color: var(--ifm-background-color);
   --ifm-blockquote-border-color: hsl(var(--site-primary-hue-saturation), 45%);
 
   --site-color-feedback-background: #fff;
