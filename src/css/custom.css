@@ -58,6 +58,14 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+html[data-theme="light"] .themedStaticAssets [fill="#282828"] {
+  fill: black;
+}
+
+html[data-theme="dark"] .themedStaticAssets [fill="#282828"] {
+  fill: white;
+}
+
 .header-github-link:hover {
   opacity: 0.6;
 }
