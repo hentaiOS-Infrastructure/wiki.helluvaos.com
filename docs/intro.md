@@ -19,8 +19,8 @@ Here's our basic furries that you might already know:
 
 helluvaOS offers a lot of fire, like:
 
-- Paimon eating, this thing absolutely oriented on this part
-- Google if they developed Pixel in hell
+- [Paimon eating](getting-started/features#paimon-eating), this thing absolutely oriented on this part
+- Google if they developed [Pixel in hell](getting-started/features#pixel-developed-in-hell)
 - Better amogus gameplay experience
 - Questionable engineering choices
 - Parade of destruction
@@ -32,7 +32,7 @@ Also, we keeping:
 - SafetyNet for your MacDolan app
 - Pixel stuff that's lit on fire
 
-Further more, Read On
+See [Features](getting-started/features.md) for more things
 
 ## Install
 

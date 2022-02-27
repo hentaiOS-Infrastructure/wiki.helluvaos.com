@@ -29,11 +29,9 @@ Each ID is defined as below:
 - Device Type ID
   - C : Core (Requirements that applied to any devices)
   - D : Device-specific
-
 - Condition ID
   - When the requirement is unconditional, this ID is set as 0.
   - When the requirement is conditional, 1 is assigned for the 1st condition and the number increments by 1 within the same section and the same device type.
-
 - Requirement ID
   - This ID starts from 0 and increments by 1 within the same section and the same condition.
 
@@ -59,9 +57,9 @@ An **Handheld device** refers to builds that is typically used by holding it in 
 
 The device are classified as Handheld if they meet all the following criteria:
 
+- Have at least msm8998 (Snapdragon 835) SoC at minimum.
 - Have a power source that provides mobility, such as a battery.
 - Have a physical diagonal screen size in the range of 3.3 inches (or 2.5 inches for devices which launched on an API level earlier than API 30) to 8 inches.
-- Have at least msm8998 (Snapdragon 835) SoC at minimum.
 
 The additional requirements in the rest of this section available on [Android CDD Section 2.2.1](https://source.android.com/compatibility/android-cdd#2_2_1_hardware).
 

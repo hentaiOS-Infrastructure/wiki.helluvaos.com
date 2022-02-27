@@ -19,28 +19,57 @@ So, welcome to the first page of our introduction to hell, here, I will explain 
 Features may vary between supported devices, refer to your device maintainer for more details.
 :::
 
+## Better performance
+
+We going ghost.
+
+- SkiaVK (Vulkan) UI Renderer
+- Low-level Optimizations
+- Things you don't expect
+
 ## Pixel developed in Hell
 
 Yes, you see it right, we have a pretty solid "Do stuff in Google way if they developing Pixel in Hell", we bringing Pixel features up from earth to hell, like
 
-1. Next Generation Assistant
-2. Google Mobile Services
-3. Adaptive connectivity (Requires device with 5G Support)
-4. Now Playing (Pixel-only)
-5. Adaptive Sound (Available for supported devices)
-6. Live Captions
+- Adaptive connectivity (Requires device with 5G Support)
+- Adaptive Sound (Available for supported devices)
+- Call Screening (Available for supported devices)
+- Incrased Touch Sensitivity for more gaming
+- "At a Glance" on Lock Screen
+- Next Generation Assistant
+- Now Playing (Pixel-only)
+- Assistant Quick Phrases
+- Google Mobile Services
+- Screen-off "Hey Googe"
+- Extreme Battery Saver
+- Recent Text Selection
+- "Rules" Automation
+- Adaptive Charging
+- App Suggestions
+- Game Dashboard
+- Live Captions
+
 
 ## Paimon Eating
 
 This part will explain how we made Paimon Eating feels more "Yes"
 
-1. Optimized Routines and Libraries
-2. Fix for inconsistent Vsync that happens in some worlds
-3. Neuron activating way for making sure Paimon runs optimal with activated almonds
+- Neuron activating way for making sure Paimon runs optimal with activated almonds
+- Fix for inconsistent Vsync that happens in some worlds
+- Optimized Routines and Libraries
 
 :::tip NOTES
 The way for Paimon eating is not the same for all devices, refer to your device maintainer for more details.
 :::
+
+## No Gore
+
+We paying attention to design and UX while staying consistent throughout Material Design, we made several changes like:
+
+- Brand new and easy-to-read typefaces (Inter, HarmonyOS Sans)
+- Google implementation of Material You themes
+- Things you already know from Pixel
+- Seamless font-weight animations
 
 ## SafetyNet
 
