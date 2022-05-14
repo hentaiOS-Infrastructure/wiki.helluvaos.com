@@ -44,7 +44,6 @@ For unifying the user experience across devices, You (as Maintainer):
 ### Optionals
 
   1. [C-SR] STRONGLY RECOMMENDED to be able to work with Splash Screen.
-
   2. [C-0-0] MUST Following our branding guidelines for your publishing of production builds.
 
 ### Important
