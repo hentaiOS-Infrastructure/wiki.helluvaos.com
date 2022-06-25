@@ -53,6 +53,10 @@ And you may lose your data if you attempting to downgrade.
 
 Updates generally don't need a data wipe, if it does, we will notify you through the changelog of the build. Else, like first-install from other ROM, a Data wipe is required.
 
+### I can't install Delta updates!
+
+To install delta updates, make sure you don't have any modifications in place (For example, Magisk), and you have to sideload it from the build that is released before (For example, Sideload June from Mid-May)
+
 ## Technical Stuffs
 
 ### Can I root?
