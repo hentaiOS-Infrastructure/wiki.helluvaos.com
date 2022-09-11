@@ -32,8 +32,10 @@ If you were unable to follow any of these following requirements, you're unfit f
 3. [C-0-2] MUST following the [Device Requirements](device-requirements).
 4. [C-0-3] MUST amending the former requirement, the source of the device you have to publish is the one the REAL one that's used to build the image.
 5. [C-0-4] MUST own the device. Blind and untested builds is not allowed. Devices that have minimal hardware difference are allowed to be maintained, as long you are still maintaining the root device.
-6. [C-SR] STRONGLY RECOMMENDED have your device sources public.
-7. [C-SR] STRONGLY RECOMMENDED to include BUG ticket for changes if available.
+6. [C-0-5] MUST have a fully functional build that tested by at least 3 different entities.
+7. [C-SR] STRONGLY RECOMMENDED for the tree to be clean of any third-party distributions (e.g. Lineage) components that are not part of standard Android and/or AOSP or components that may violating Android CDD specifications.
+8. [C-SR] STRONGLY RECOMMENDED have your device sources public.
+9. [C-SR] STRONGLY RECOMMENDED to include BUG ticket for changes if available.
 
 After applying and your application is accepted, you'll receive an E-mail or Direct Message from the recruitment and device board committee about the acceptance of your application.
 

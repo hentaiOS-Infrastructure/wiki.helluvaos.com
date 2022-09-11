@@ -17,11 +17,11 @@ Performance can fluctuate dramatically for high-performance long-running apps, e
 Maintainers:
 
 - [C-0-0] MUST NOT using Touch Boosting and instead, use libperf.
-- [C-SR] STRONGLY RECOMMENDED to ship efficient frequency data inside kernel.
 - [C-0-1] MUST implement efficient frequency into libperf through Power Hints.
     We suggest that you avoid assigning CPU 0 and 1 to tasks other than TA (Top-App) as that it's generally utilizing CPU 0 and 1 extensively.
-- [D-SR] STRONGLY RECOMMENDED to tune your CPUSet according to your SoC, every SoC has its specific CPUSet tuning, so make sure you correctly tune it according to your SoC.
 - [C-0-2] MUST NOT overly boosting everything, because **Performance is not "all-about-boosting".** Efficiency is all that matters in this case, for getting efficient frequencies, you can use [freqbench](https://github.com/kdrag0n/freqbench).
+- [D-SR] STRONGLY RECOMMENDED to tune your CPUSet according to your SoC, every SoC has its specific CPUSet tuning, so make sure you correctly tune it according to your SoC.
+- [C-SR] STRONGLY RECOMMENDED to ship efficient frequency data inside kernel.
 - [C-SR] STRONGLY RECOMMENDED to ship [PELT](https://lwn.net/Articles/531853/) instead of [WALT](https://wiki.codeaurora.org/xwiki/bin/QKERNEL/Window%20Assisted%20Load%20Tracking/).
 - [C-SR] STRONGLY RECOMMENDED to ship PELT Util Halflife by picking or forward-porting (for Linux 4.19.y upwards) [kernel/common/cb22d9159761cb32c35a5f9399b8011fcdae654b](https://android.googlesource.com/kernel/common/+/cb22d9159761cb32c35a5f9399b8011fcdae654b) and [kernel/common/3c207c880674e5d29aa1c9b7e94d812383c442ee](https://android.googlesource.com/kernel/common/+/3c207c880674e5d29aa1c9b7e94d812383c442ee).
 - [C-SR] STRONGLY RECOMMENDED to ship Google's workaround for Unity Engine CPU Affinity by picking [google/redbull/69a034bb62b8841c1774617fb9b7af0ccf475b1e](https://android.googlesource.com/device/google/redbull/+/69a034bb62b8841c1774617fb9b7af0ccf475b1e) and [google/redbull/a5137c1c9150e6617d2d62575789455bedcfd27d](https://android.googlesource.com/device/google/redbull/+/a5137c1c9150e6617d2d62575789455bedcfd27d).
