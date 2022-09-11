@@ -29,16 +29,20 @@ import TabItem from '@theme/TabItem';
     ]}>
 <TabItem value="alioth">
 
-    fastboot flash dtbo dtbo_gourami.img
-    fastboot flash boot boot_alioth.img
-    fastboot flash vendor_boot vendor_boot_alioth.img
+``` bash
+fastboot flash dtbo dtbo_gourami.img
+fastboot flash boot boot_alioth.img
+fastboot flash vendor_boot vendor_boot_alioth.img
+```
 
 </TabItem>
 <TabItem value="munch">
 
-    fastboot flash dtbo dtbo_gourami.img
-    fastboot flash boot boot_munch.img
-    fastboot flash vendor_boot vendor_boot_munch.img
+``` bash
+fastboot flash dtbo dtbo_gourami.img
+fastboot flash boot boot_munch.img
+fastboot flash vendor_boot vendor_boot_munch.img
+```
 
 </TabItem>
 </Tabs>
