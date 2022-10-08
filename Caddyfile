@@ -4,7 +4,7 @@
 			base_dir /srv/
 			url https://github.com/hentaiOS-Infrastructure/wiki.helluvaos.com.git
 			branch gh-pages
-			psot pull exec {
+			post pull exec {
 				name WikiPull
 				command /usr/bin/echo
 				args "Pulled Wiki Repo"
