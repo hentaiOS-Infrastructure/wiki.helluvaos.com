@@ -12,5 +12,5 @@ Xiaomi Gourami is a common device which encapsulates and defines the term "Compe
 
 ## Just-that-you-know
 
-- [Adaptive Charging](adaptive-charging)
-- [Reporting Issues](reporting-issues)
+- [Adaptive Charging](/devtech/ximi/gourami/adaptive-charging)
+- [Reporting Issues](/devtech/ximi/gourami/reporting-issues)
