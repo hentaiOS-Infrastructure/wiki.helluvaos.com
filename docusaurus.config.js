@@ -2,16 +2,18 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+// @ts-ignore
 const config = {
   title: 'hentaiOS Docuwiki',
   tagline: 'mmmmmmmmmmmmmmmmmm',
-  url: 'https://hentaios.com',
+  url: 'https://wiki.helluvaos.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'hentaiOS-Infrastructure', // Usually your GitHub org/user name.
-  projectName: 'dokument', // Usually your repo name.
+  organizationName: 'hentaiOS-Infrastructure',
+  projectName: 'wiki.helluvaos.com',
+  trailingSlash: false,
   themeConfig: {
     prism: {
       theme: require('prism-react-renderer/themes/github'),
@@ -104,8 +106,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/hentaiOS-Infrastructure/wiki-frontpage-develop/edit/master/',
+          editUrl: 'https://github.com/hentaiOS-Infrastructure/wiki-frontpage-develop/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

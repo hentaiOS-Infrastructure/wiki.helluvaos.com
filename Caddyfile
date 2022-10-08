@@ -1,6 +1,22 @@
+{
+	git {
+		repo wiki.helluvaos.com {
+			base_dir /srv/
+			url https://github.com/hentaiOS-Infrastructure/wiki.helluvaos.com.git
+			branch gh-pages
+			psot pull exec {
+				name WikiPull
+				command /usr/bin/echo
+				args "Pulled Wiki Repo"
+			}
+		}
+	}
+}
+
 :80 {
 	encode zstd gzip
-	root * /srv
+	git /update/wiki.helluvaos.com update repo wiki.helluvaos.com
+	root * /srv/wiki.helluvaos.com
 	try_files {path}.html {path}
 	file_server
 }
