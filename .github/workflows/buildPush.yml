@@ -13,7 +13,7 @@ jobs:
       - name: Run
         uses: VaultVulp/gp-docker-action@1.5.2
         with:
-          github-token: ${{ secrets.PANCAKE }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           image-name: frontend-docuwiki
           image-tag: latest
   deploy:
@@ -36,7 +36,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PANCAKE }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publish to the `gh-pages` branch:
           publish_dir: ./build
           # The following lines assign commit authorship to the official
