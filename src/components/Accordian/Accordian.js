@@ -1,26 +1,28 @@
 import React, { useState } from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Accordion from "@material-ui/core/Accordion";
-import AccordionDetails from "@material-ui/core/AccordionDetails";
-import AccordionSummary from "@material-ui/core/AccordionSummary";
-import Typography from "@material-ui/core/Typography";
+import { makeStyles } from "@mui/styles";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import Accordion from "@mui/material/Accordion";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import Typography from "@mui/material/Typography";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { useColorMode } from '@docusaurus/theme-common';
 import "./Accordian.css";
 import { data } from "./data";
 
+const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "65%",
     margin: "1rem auto",
   },
   heading: {
-    fontSize: theme.typography.pxToRem(15),
+    fontSize: 15,
     flexBasis: "33.33%",
     flexShrink: 0,
   },
   secondaryHeading: {
-    fontSize: theme.typography.pxToRem(15),
+    fontSize: 15,
     color: "#1C1E21",
   },
   accord: {
@@ -41,6 +43,7 @@ const Accordian = () => {
 
   //   console.log(questions);
   return (
+    <ThemeProvider theme={theme}>
     <>
       <div className="faq">
         <div className="faq-block">
@@ -101,6 +104,7 @@ const Accordian = () => {
         </div>
       </div>
     </>
+    </ThemeProvider>
   );
 };
 
