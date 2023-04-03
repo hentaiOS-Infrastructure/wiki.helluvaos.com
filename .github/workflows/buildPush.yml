@@ -9,7 +9,7 @@ jobs:
     name: Buildpush
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.4.0
+      - uses: actions/checkout@v3.5.0
       - name: Run
         uses: VaultVulp/gp-docker-action@1.6.0
         with:
@@ -20,7 +20,7 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.4.0
+      - uses: actions/checkout@v3.5.0
       - uses: actions/setup-node@v3
         with:
           node-version: 18
