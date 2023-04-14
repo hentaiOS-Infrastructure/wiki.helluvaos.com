@@ -5,9 +5,12 @@ sidebar_label: A-Only
 # A-Only Installation Guide
 
 ## Before you start
-1. ** Keep a backup of your data.** Make sure to keep a backup of your files as the installaton will wipe your data.
 
-2. ** You must come from MIUI.** Make sure you come from MIUI and not using other ROM before installation. If you come from other ROM, flash MIUI and boot it once before continuing installation.
+1. **Keep a backup of your data.** Make sure to keep a backup of your files as the installaton will wipe your data.
+
+2. **You must come from MIUI.** Make sure you come from MIUI and not using other ROM before installation. If you come from other ROM, flash MIUI and boot it once before continuing installation.
+
+3. To obtain the required platform-tools, [Read here.](/docs/installation/installing-requirements)
 
 ## Connect your device
 
@@ -18,10 +21,12 @@ sidebar_label: A-Only
 2. Once your phone is in Fastboot mode, connect your phone to a computer using a USB Cable.
 3. Once you connected your phone to a computer using a USB Cable, check your phone connection to the computer by executing `fastboot devices`
 4. Once the device showed up in fastboot devices, continue with Sideloading the boot image with the following commands:
+
 ``` bash
 fastboot flash dtbo dtbo_gourami.img
 fastboot flash recovery recovery_DEVICENAME.img
 ```
+
 ## Install from MIUI
 
 1. **Enter Recovery mode** by pressing and holding the Power and Volume up buttons for 3 seconds until the phone turns on. You will be in Recovery mode.

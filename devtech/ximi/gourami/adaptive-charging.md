@@ -15,4 +15,3 @@ We’ve optimized Gourami's lithium-ion battery for high charge rates when the b
 ![Battery Charging mmmm](https://storage.googleapis.com/support-forums-api/attachment/thread-135906719-3819305603872996858.gif)
 
 It may also pause charging above 80% under certain conditions, and if you enable Adaptive Charging, Gourami devices can optimize charge rates for gradual overnight charging. Taken together, these approaches help you charge your Gourami device quickly when the battery is low, but also help minimize degradation to preserve the lifespan of your battery.
-

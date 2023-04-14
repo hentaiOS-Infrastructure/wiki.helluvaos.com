@@ -96,7 +96,7 @@ const config = {
         alt: 'hentaiOS Open Source Logo',
         src: 'img/oss_logo.svg',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} hentaiOS.<br><span class="footer__link-item">Android is a trademark of Google LLC.</span>`,
+      copyright: `Copyright © ${new Date().getFullYear()} The hentaiOS Project.<br><span class="footer__link-item">Android is a trademark of Google LLC.</span>`,
     },
   },
   presets: [

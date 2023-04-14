@@ -7,9 +7,12 @@ import TabItem from '@theme/TabItem';
 # A/B Installation Guide
 
 ## Before you start
-1. ** Keep a backup of your data.** Make sure to keep a backup of your files as the installaton will wipe your data.
 
-2. ** You must come from MIUI.** Make sure you come from MIUI and not using other ROM before installation. If you come from other ROM, flash MIUI and boot it once before continuing installation.
+1. **Keep a backup of your data.** Make sure to keep a backup of your files as the installaton will wipe your data.
+
+2. **You must come from MIUI.** Make sure you come from MIUI and not using other ROM before installation. If you come from other ROM, flash MIUI and boot it once before continuing installation.
+
+3. To obtain the required platform-tools, [Read here.](/docs/installation/installing-requirements)
 
 ## Connect your device
 
