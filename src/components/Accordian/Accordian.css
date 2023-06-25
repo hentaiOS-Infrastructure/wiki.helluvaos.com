@@ -1,95 +1,122 @@
-.faq {
-  width: 80%;
-  margin: 0em auto 1em auto;
+.frame-9,
+.frame-9 * {
+  box-sizing: border-box;
+}
+
+.frame-9 {
+  background: #ffffff;
+  padding: 95px;
   display: flex;
   flex-direction: column;
-  height: 33rem;
+  gap: 22px;
   align-items: center;
-}
-
-.faq-container {
-  padding-bottom: 10px;
-}
-
-.faq-image {
-  width: 95%;
-  margin-left: auto;
-}
-
-.faq-block {
-  margin-left: 2%;
-  width: 45vw;
-  height: auto;
-  border-radius: 8px;
-  /* padding: 15px 40px; */
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   justify-content: flex-start;
-  position: absolute;
+    position: relative;
+    overflow: hidden;
 }
 
-.faq-question {
-  font-weight: 900;
-  font-size: 1.1rem;
-  margin: 10px 0 10px 0
+.frame-12 {
+  background: #d30f54;
+  border-radius: 29.86px;
+  padding: 8.21px 18.66px 8.21px 18.66px;
+  display: flex;
+  flex-direction: row;
+    gap: 7.47px;
+  align-items: center;
+  justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
 }
 
-.accord-title {
-  padding: 2rem 0;
-  font-weight: bold;
+.the-death-that-you-deservioli {
+  color: #ffffff;
   text-align: center;
+  font: 600 17.92px "Inter", sans-serif;
+    position: relative;
+    letter-spacing: -0.896px;
 }
 
-@media (max-width: 600px) {
-  .accord-title {
-    padding: 1.2rem 0;
-    text-align: center;
-  }
-
-  .faq {
-    flex-direction: column;
-    width: 95%;
-    height: auto;
-  }
-
-  .faq-image {
-    width: 90%;
-  }
-
-  .faq-block {
-    width: 90%;
-    margin: 1em 0 2em;
-  }
-
-  .faq-question {
-    font-size: 0.85em;
-  }
-
-  .faq {
-    height: 28rem;
-  }
+.vector-29 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
 }
 
-.accord-dark {
-  background: rgb(25, 25, 25);
-  margin: 0;
-  border-radius: 10;
+.frame-16 {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+.frame-15 {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
 }
 
-.accord-dark h3 {
-  color: white;
+.frame-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
 }
 
-.accord-light h3 {
-  color: black;
+.that-combo-was {
+  color: #000000;
+  text-align: center;
+  font: 600 64px "Inter", sans-serif;
+  position: relative;
+  width: 463px;
+  height: 62.12px;
+  letter-spacing: -3.84px;
 }
 
-#white-text {
-  color: white;
+.lame {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
 }
 
-.accordian-container {
-  min-width: -webkit-fill-available;
-  min-width: -moz-available;
+.you-re-not-just-playing-to-win-anymore-you-re-going-for-glory-you-know-you-can-do-it-just-don-t-brick-it-in-the-final-stretch {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", sans-serif;
+  position: relative;
+}
+
+.frame-14 {
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 677px;
+  height: 322px;
+  position: relative;
+}
+
+._6409-cc-33289-b-0-1 {
+  border-radius: 37px;
+  width: 677px;
+  height: 322px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.image-4 {
+  width: 368.45px;
+  height: 385.73px;
+  position: absolute;
+  left: 126.79px;
+  top: -73.32px;
 }
