@@ -33,18 +33,20 @@ import TabItem from '@theme/TabItem';
 <TabItem value="alioth">
 
 ``` bash
+cd {directory where you extracted the installkit files}/alioth
 fastboot flash dtbo dtbo_gourami.img
-fastboot flash boot boot_alioth.img
-fastboot flash vendor_boot vendor_boot_alioth.img
+fastboot flash boot boot.img
+fastboot flash vendor_boot vendor_booth.img
 ```
 
 </TabItem>
 <TabItem value="munch">
 
 ``` bash
+cd {directory where you extracted the installkit files}/munch
 fastboot flash dtbo dtbo_gourami.img
-fastboot flash boot boot_munch.img
-fastboot flash vendor_boot vendor_boot_munch.img
+fastboot flash boot boot.img
+fastboot flash vendor_boot vendor_boot.img
 ```
 
 </TabItem>

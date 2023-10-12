@@ -22,10 +22,31 @@ sidebar_label: A-Only
 3. Once you connected your phone to a computer using a USB Cable, check your phone connection to the computer by executing `fastboot devices`
 4. Once the device showed up in fastboot devices, continue with Sideloading the boot image with the following commands:
 
+<Tabs
+    defaultValue="alioth"
+    values={[
+        {label: 'POCO F2 Pro (lmi)', value: 'lmi'},
+        {label: 'Mi 10T Pro (apollo)', value: 'apollo'}
+    ]}>
+<TabItem value="lmi">
+
 ``` bash
-fastboot flash dtbo dtbo_gourami.img
-fastboot flash recovery recovery_DEVICENAME.img
+cd {directory where you extracted the installkit files}/lmi
+fastboot flash dtbo dtbo.img
+fastboot flash recovery recovery.img
 ```
+
+</TabItem>
+<TabItem value="apollo">
+
+``` bash
+cd {directory where you extracted the installkit files}/apollo
+fastboot flash dtbo dtbo.img
+fastboot flash recovery recovery.img
+```
+
+</TabItem>
+</Tabs>
 
 ## Install from MIUI
 
