@@ -1,6 +1,8 @@
 ---
 sidebar_label: A-Only
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # A-Only Installation Guide
 
