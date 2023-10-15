@@ -25,7 +25,7 @@ import TabItem from '@theme/TabItem';
 4. Once the device showed up in fastboot devices, continue with Sideloading the boot image with the following commands:
 
 <Tabs
-    defaultValue="alioth"
+    defaultValue="lmi"
     values={[
         {label: 'POCO F2 Pro (lmi)', value: 'lmi'},
         {label: 'Mi 10T Pro (apollo)', value: 'apollo'}
