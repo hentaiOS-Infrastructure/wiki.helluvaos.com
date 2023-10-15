@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 cd {directory where you extracted the installkit files}/alioth
 fastboot flash dtbo dtbo_gourami.img
 fastboot flash boot boot.img
-fastboot flash vendor_boot vendor_booth.img
+fastboot flash vendor_boot vendor_boot.img
 ```
 
 </TabItem>
