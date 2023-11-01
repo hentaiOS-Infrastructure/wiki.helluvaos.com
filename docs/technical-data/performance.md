@@ -16,7 +16,7 @@ Performance can fluctuate dramatically for high-performance long-running apps, e
 
 Maintainers:
 
-- [C-0-0] MUST NOT using Touch Boosting and instead, use libperf.
+- [C-0-0] MUST NOT using Touch Boosting and instead, use libperf and uclamp.
 - [C-0-1] MUST implement efficient frequency into libperf through Power Hints.
     We suggest that you avoid assigning CPU 0 and 1 to tasks other than TA (Top-App) as that it's generally utilizing CPU 0 and 1 extensively.
 - [C-0-2] MUST NOT overly boosting everything, because **Performance is not "all-about-boosting".** Efficiency is all that matters in this case, for getting efficient frequencies, you can use [freqbench](https://github.com/kdrag0n/freqbench).
