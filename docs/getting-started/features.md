@@ -34,7 +34,7 @@ Yes, you see it right, we have a pretty solid "Do stuff in Google way if they de
 - Adaptive connectivity (Requires device with 5G Support)
 - Adaptive Sound (Available for supported devices)
 - Call Screening (Available for supported devices)
-- Incrased Touch Sensitivity for more gaming
+- Increased Touch Sensitivity for more gaming
 - "At a Glance" on Lock Screen
 - Next Generation Assistant
 - Now Playing (Pixel-only)
