@@ -39,7 +39,7 @@ Each ID is defined as below:
 
 The Requirement ID starts with the corresponding section ID that is followed by the Requirement ID described above.
 
-- The ID consists of: Section URL / Device Type ID - Condition ID - Requirement ID (e.g. [Something](404)/C-0-1).
+- The ID consists of: Section URL / Device Type ID - Condition ID - Requirement ID (e.g. [Something] (404)/C-0-1).
 
 ## Device Types
 
