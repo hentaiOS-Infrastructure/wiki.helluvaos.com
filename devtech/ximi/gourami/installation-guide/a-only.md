@@ -1,5 +1,13 @@
 ---
 sidebar_label: A-Only
+title: Xiaomi Gourami A-Only Installation Guide
+description: Installation Guide for installing hentaiOS to Xiaomi Gourami (Kona) A-Only devices
+keywords:
+    - install guide
+    - xiaomi
+    - gourami
+    - apollo
+    - xiaomi mi 10t
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

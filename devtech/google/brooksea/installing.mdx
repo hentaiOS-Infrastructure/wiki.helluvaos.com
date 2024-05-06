@@ -1,18 +1,39 @@
 ---
 sidebar_label: Installing
+title: Google Brooksea (Brooklyn/Chelsea) Installation Guide
+description: Installation Guide for installing hentaiOS to Google Brooksea (Google Pixel with Google Silicon) devices
+keywords:
+    - install guide
+    - google
+    - brooksea
+    - brooklyn
+    - chelsea
+    - gs101
+    - gs201
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Installation Guide
 
-## Before you start
+::::info
+:::danger
+**Keep a backup of your data!** Make sure to keep a backup of your files as the installaton will wipe your data.
+:::
 
-1. **Keep a backup of your data.** Make sure to keep a backup of your files as the installaton will wipe your data.
+:::warning
+Unlocked bootloader required, [Read here](https://source.android.com/docs/core/architecture/bootloader/locking_unlocking) on how to unlocking your device before continuing.
+:::
 
-2. **Use Google ADB Driver**! Make sure to install Google ADB Drivers before continuing.
+:::info
+**Use Google ADB Driver**! Make sure to install Google ADB Drivers before continuing.
+:::
 
-3. To obtain the required platform-tools, [Read here.](/docs/installation/installing-requirements)
+:::info
+To obtaining the required platform-tools, [Read here.](/docs/installation/installing-requirements)
+:::
+
+::::
 
 ## Connect your device
 
@@ -80,28 +101,5 @@ fastboot flash vendor_kernel_boot vendor_kernel_boot.img
     ![ADBSideloadWindow](/img/install-assets/adb-sideload-window.svg)
 
 9. With the volume buttons, scroll to "Reboot system now" and press the Power button.
-
-    ![Reboot Now](/img/pixel-install-assets/reboot-now.svg)
-
-# Sideloading Updates
-
-1. **Enter Bootloader mode.** Press and hold the Volume Down button and Power button at the same time for 10-15 seconds.
-2. Use the volume buttons to change the menu options until "Recovery Mode" is displayed on screen. To select, press the Power button once.
-
-    ![Recovery Mode](/img/pixel-install-assets/recovery-mode.svg)
-
-3. On your screen, “No command” is displayed. Press and hold the Power button. While you hold Power, press the Volume Up button and let go of both buttons quickly.
-
-    ![No Command](/img/pixel-install-assets/key-combination.svg)
-
-4. Use the volume buttons to move through the menu options, when “Apply update from ADB” is highlighted, press the Power button.
-
-    ![Apply Update](/img/pixel-install-assets/apply-update.svg)
-
-5. Flash the ROM through recovery with adb sideload command from your Mac/PC.
-
-    ![ADBSideloadWindow](/img/install-assets/adb-sideload-window.svg)
-
-6. With the volume buttons, scroll to "Reboot system now" and press the Power button.
 
     ![Reboot Now](/img/pixel-install-assets/reboot-now.svg)

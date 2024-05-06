@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Installing Requirements
 
 These instructions use command-line tools. Launch the terminal as you would on any other application. On Windows, launch a regular non-adminstrator instance of the Terminal. Do not use the legacy Command Prompt or adminstrator variant of Terminal.
@@ -14,6 +11,9 @@ Use the same terminal for the whole installation process. If you close it, you'l
 ## Obtaining Platform Tools
 
 You need an updated copy of the `fastboot` and `adb` tool and the directory containing it needs to be included in the `PATH` environment variable. You can run `fastboot --version` to determine the current version. It must be at least `29.0.6`. You can use a distribution package for this, but most of them mistakenly package development snapshots of fastboot, clobber the standard version scheme for platform-tools (adb, fastboot, etc.) with their own scheme and don't keep it up-to-date despite that being crucial.
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 <Tabs
     defaultValue="arch"
@@ -33,7 +33,7 @@ sudo pacman -S android-tools
 
 <TabItem value="windows">
 
-```
+```PowerShell
 winget install Google.PlatformTools
 ```
 
@@ -41,7 +41,7 @@ winget install Google.PlatformTools
 
 <TabItem value="macos">
 
-```
+```zsh
 brew install android-platform-tools
 ```
 
@@ -63,7 +63,7 @@ To download and extract the standalone release of platform-tools, run the follow
 
 <TabItem value="debian">
 
-```
+```bash
 sudo apt install libarchive-tools
 curl -O https://dl.google.com/android/repository/platform-tools-latest-linux.zip
 bsdtar xvf platform-tools-latest-linux.zip
@@ -73,7 +73,7 @@ bsdtar xvf platform-tools-latest-linux.zip
 
 <TabItem value="macos">
 
-```
+```zsh
 curl -O https://dl.google.com/android/repository/platform-tools-latest-darwin.zip
 tar xvf platform-tools-latest-darwin.zip
 ```
@@ -109,7 +109,7 @@ Next, add the directory containing the extracted files to the `PATH` environment
 
 <TabItem value="debian">
 
-```
+```bash
 export PATH=$PATH:$(pwd)/platform-tools
 ```
 
@@ -117,7 +117,7 @@ export PATH=$PATH:$(pwd)/platform-tools
 
 <TabItem value="macos">
 
-```
+```zsh
 export PATH=$PATH:$(pwd)/platform-tools
 ```
 
@@ -125,7 +125,7 @@ export PATH=$PATH:$(pwd)/platform-tools
 
 <TabItem value="windows">
 
-```
+```PowerShell
 $env:PATH = $env:PATH + ";$(pwd)\platform-tools"
 ```
 

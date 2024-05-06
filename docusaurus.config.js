@@ -16,8 +16,8 @@ const config = {
   trailingSlash: false,
   themeConfig: {
     prism: {
-      theme: require('prism-react-renderer/themes/github'),
-      darkTheme: require('prism-react-renderer/themes/github'),
+      theme: require('prism-react-renderer').themes.github,
+      darkTheme: require('prism-react-renderer').themes.github,
     },
     navbar: {
       hideOnScroll: true,
@@ -98,6 +98,9 @@ const config = {
       },
       copyright: `Copyright © ${new Date().getFullYear()} The hentaiOS Project.<br><span class="footer__link-item">Android is a trademark of Google LLC.</span>`,
     },
+    metadata: [
+      { name: 'keywords', content: 'hentaiOS, helluvaOS, wiki, guide, knowledge base' }
+    ],
   },
   presets: [
     [
@@ -110,6 +113,18 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+          createSitemapItems: async (params) => {
+            const { defaultCreateSitemapItems, ...rest } = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes('/page/'));
+          },
         },
       },
     ],
@@ -130,7 +145,7 @@ const config = {
         id: 'devtech',
         path: 'devtech',
         routeBasePath: 'devtech',
-        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarPath: require.resolve('./devtech/sidebars.js'),
       },
     ],
   ],

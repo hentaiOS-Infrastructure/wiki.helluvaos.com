@@ -1,9 +1,15 @@
 ---
 sidebar_position: 1
+sidebar_label: Features
+title: hentaiOS/helluvaOS Features
+description: List of what features we have (not limited to this, though)
+keywords:
+    - hentaiOS
+    - helluvaOS
+    - features
 ---
 
-
-# Features stack
+# Features
 
 So, welcome to the first page of our introduction to hell, here, I will explain what we do to make sure your Gaming Experience as smooth as twerking Amogus.
 
@@ -48,7 +54,6 @@ Yes, you see it right, we have a pretty solid "Do stuff in Google way if they de
 - App Suggestions
 - Game Dashboard
 - Live Captions
-
 
 ## Paimon Eating
 

@@ -55,7 +55,7 @@ If your issue is related to the device, don't get to this perimeter.
 
 - [Website](https://hentaios.com)
 - [Telegram](https://t.me/hentaiOSChat)
-- [Twitter](https://twitter.com/hentai_os)
+- [Twitter](https://twitter.com/hentaiOSROM)
 - [Support Mail](mailto:support@hentaios.com)
 - [Legal Mail](mailto:legal@hentaios.com)
 - [DNS NOC Mail](mailto:noc-dns@hentaios.com)

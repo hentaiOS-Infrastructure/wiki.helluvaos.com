@@ -40,7 +40,7 @@ We can't ship some of the following features:
 
 We normally pushing an update after Google published [Security Bulletin](https://source.android.com/security/bulletin) to the public. **Some edge-case scenarios may block the release, if that happens, It'll be notified through Support Channels.**
 
-:::caution Want to ask for ETA?
+:::warning Want to ask for ETA?
 Don't even ask for ETA.
 :::
 
@@ -53,7 +53,7 @@ And you may lose your data if you attempting to downgrade.
 
 Updates generally don't need a data wipe, if it does, we will notify you through the changelog of the build. Else, like first-install from other ROM, a Data wipe is required.
 
-### I can't install Delta updates!
+### I can't install Delta updates
 
 To install delta updates, make sure you don't have any modifications in place (For example, Magisk), and you have to sideload it from the build that is released before (For example, Sideload June from Mid-May)
 

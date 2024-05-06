@@ -1,5 +1,15 @@
 ---
 sidebar_label: A/B
+title: Xiaomi Gourami A/B Installation Guide
+description: Installation Guide for installing hentaiOS to Xiaomi Gourami (Kona) A/B partitioned devices
+keywords:
+    - install guide
+    - xiaomi
+    - gourami
+    - alioth
+    - poco f3
+    - munch
+    - poco f4
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

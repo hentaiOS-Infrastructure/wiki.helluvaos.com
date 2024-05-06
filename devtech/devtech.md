@@ -13,3 +13,7 @@ Babirusa. Confused? Good.
 ## The Furries
 
 Across of a multitude of devices, the Furries have been the dominant species. They are the most advanced species in the world, and are the only species that can survive in the wild.
+
+## Welcome to Penacony
+
+Yes, I'm serious.

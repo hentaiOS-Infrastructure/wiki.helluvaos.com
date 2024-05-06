@@ -1,11 +1,7 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Google Brooksea
+# Google Brooklyn and Chelsea
 
 Amercia. Google Silicon G1/G2 shipping devices.
-
-## Portals
-
-- [Support Chat](https://t.me/hentaiOSkona)
