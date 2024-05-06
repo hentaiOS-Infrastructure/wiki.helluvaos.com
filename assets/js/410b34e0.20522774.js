@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhentaiwiki=self.webpackChunkhentaiwiki||[]).push([[508],{7662:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"devtech"}')}}]);
