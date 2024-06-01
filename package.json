@@ -21,7 +21,7 @@
   "dependencies": {
     "@algolia/client-search": "^4.23.3",
     "@babel/core": "^7.24.5",
-    "@docusaurus/core": "^3.3.2",
+    "@docusaurus/core": "^3.4.0",
     "@docusaurus/plugin-sitemap": "^3.3.2",
     "@docusaurus/preset-classic": "^3.3.2",
     "@emotion/react": "^11.11.4",
