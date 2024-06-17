@@ -1,7 +1,7 @@
 import React from "react";
 import "./Accordian.css";
 
-const Accordian = () => {
+function Accordian() {
   return (
     <div className="frame-9">
       <div className="frame-12">
@@ -138,6 +138,6 @@ const Accordian = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Accordian;
