@@ -120,10 +120,10 @@ const config = {
           priority: 0.5,
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
-          createSitemapItems: async (params) => {
+          createSitemapItems: async (/** @type {{ [x: string]: any; defaultCreateSitemapItems: any; }} */ params) => {
             const { defaultCreateSitemapItems, ...rest } = params;
             const items = await defaultCreateSitemapItems(rest);
-            return items.filter((item) => !item.url.includes('/page/'));
+            return items.filter((/** @type {{ url: string | string[]; }} */ item) => !item.url.includes('/page/'));
           },
         },
       },
@@ -151,4 +151,4 @@ const config = {
   ],
 };
 
-module.exports = config;
+export default config;
