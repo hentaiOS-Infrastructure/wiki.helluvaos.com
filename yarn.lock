@@ -2543,7 +2543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-content-docs@npm:3.4.0":
+"@docusaurus/plugin-content-docs@npm:3.4.0, @docusaurus/plugin-content-docs@npm:^3.4.0":
   version: 3.4.0
   resolution: "@docusaurus/plugin-content-docs@npm:3.4.0"
   dependencies:
@@ -8376,6 +8376,7 @@ __metadata:
     "@babel/core": "npm:^7.24.7"
     "@babel/eslint-parser": "npm:^7.24.7"
     "@docusaurus/core": "npm:^3.4.0"
+    "@docusaurus/plugin-content-docs": "npm:^3.4.0"
     "@docusaurus/plugin-sitemap": "npm:^3.4.0"
     "@docusaurus/preset-classic": "npm:^3.4.0"
     "@emotion/react": "npm:^11.11.4"
