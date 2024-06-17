@@ -20,34 +20,34 @@
   },
   "dependencies": {
     "@algolia/client-search": "^4.23.3",
-    "@babel/core": "^7.24.5",
-    "@docusaurus/core": "^3.3.2",
-    "@docusaurus/plugin-sitemap": "^3.3.2",
-    "@docusaurus/preset-classic": "^3.3.2",
+    "@babel/core": "^7.24.7",
+    "@docusaurus/core": "^3.4.0",
+    "@docusaurus/plugin-sitemap": "^3.4.0",
+    "@docusaurus/preset-classic": "^3.4.0",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mdx-js/react": "^3.0.1",
-    "@types/react": "^18.3.1",
+    "@types/react": "^18.3.3",
     "clsx": "^2.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-icons": "^5.2.0",
+    "react-icons": "^5.2.1",
     "react-loadable": "^5.5.0",
-    "search-insights": "^2.13.0",
+    "search-insights": "^2.14.0",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.24.5",
-    "eslint": "^8.57.0",
+    "@babel/eslint-parser": "^7.24.7",
+    "eslint": "^9.5.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-header": "^3.1.1",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react": "^7.34.2",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "prettier": "^3.2.5",
-    "stylelint": "^16.5.0"
+    "prettier": "^3.3.2",
+    "stylelint": "^16.6.1"
   },
   "browserslist": {
     "production": [
@@ -64,5 +64,5 @@
   "engines": {
     "node": ">=16.14"
   },
-  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+  "packageManager": "yarn@4.3.0"
 }
