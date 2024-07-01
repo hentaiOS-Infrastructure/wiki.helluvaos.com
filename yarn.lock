@@ -64,6 +64,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@algolia/cache-common@npm:4.24.0":
+  version: 4.24.0
+  resolution: "@algolia/cache-common@npm:4.24.0"
+  checksum: 10c0/ad481ad50d7ea92d0cce525757627f4a647b5373dc6d3cbed6405d05cb83f21a110919e7133e5233d5b13c2c8f59ed9e927efdbc82e70571707709075b07d2c6
+  languageName: node
+  linkType: hard
+
 "@algolia/cache-in-memory@npm:4.23.3":
   version: 4.23.3
   resolution: "@algolia/cache-in-memory@npm:4.23.3"
@@ -106,6 +113,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@algolia/client-common@npm:4.24.0":
+  version: 4.24.0
+  resolution: "@algolia/client-common@npm:4.24.0"
+  dependencies:
+    "@algolia/requester-common": "npm:4.24.0"
+    "@algolia/transporter": "npm:4.24.0"
+  checksum: 10c0/9e75d0bb51bb04f099e823e4397d1bac6659e1ecb7c7a73a5eaf9153632d544bd6c62a4961b606490220b236361eb8b7b77a5e4c47f12aefdd2952b14ce2fd18
+  languageName: node
+  linkType: hard
+
 "@algolia/client-personalization@npm:4.23.3":
   version: 4.23.3
   resolution: "@algolia/client-personalization@npm:4.23.3"
@@ -117,7 +134,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/client-search@npm:4.23.3, @algolia/client-search@npm:^4.23.3":
+"@algolia/client-search@npm:4.23.3":
   version: 4.23.3
   resolution: "@algolia/client-search@npm:4.23.3"
   dependencies:
@@ -125,6 +142,17 @@ __metadata:
     "@algolia/requester-common": "npm:4.23.3"
     "@algolia/transporter": "npm:4.23.3"
   checksum: 10c0/102cf8959707cd4c6aeafc1273230076b296acfe9ee4c981104e6f9116e0441fa5138c49d56c2d3447c16b31be3928061b6eaf6f85f8770bb6f931ba7abb467a
+  languageName: node
+  linkType: hard
+
+"@algolia/client-search@npm:^4.24.0":
+  version: 4.24.0
+  resolution: "@algolia/client-search@npm:4.24.0"
+  dependencies:
+    "@algolia/client-common": "npm:4.24.0"
+    "@algolia/requester-common": "npm:4.24.0"
+    "@algolia/transporter": "npm:4.24.0"
+  checksum: 10c0/d161235014fa73acc0ff04d737c695b7357c060d31db6d602464b27ba846208c6aeb35b179e76d4c33b51329b77de0c460f6cb21b66d364c18a5534874c7b987
   languageName: node
   linkType: hard
 
@@ -139,6 +167,13 @@ __metadata:
   version: 4.23.3
   resolution: "@algolia/logger-common@npm:4.23.3"
   checksum: 10c0/bc35f273f94afbbe38270f5f07134c8e49d95b361fdfc35ea6b55c41ccb9ccc4844798a8286f523fbce83096981d068ae966d20a509fed1398b0f7bdf864534a
+  languageName: node
+  linkType: hard
+
+"@algolia/logger-common@npm:4.24.0":
+  version: 4.24.0
+  resolution: "@algolia/logger-common@npm:4.24.0"
+  checksum: 10c0/1ebe93901a2b3ce41696b535d028337c1c6a98a4262868117c16dd603cc8bb106b840e45cf53c08d098cf518e07bedc64a59cc86bef18795dc49031c2c208d31
   languageName: node
   linkType: hard
 
@@ -186,6 +221,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@algolia/requester-common@npm:4.24.0":
+  version: 4.24.0
+  resolution: "@algolia/requester-common@npm:4.24.0"
+  checksum: 10c0/cf88ca1f04f4243515bbfa05d7cf51afe6a57904390d9e1ccab799bae20f6fa77e954d9eee9d5c718086582aeb478e271ccf1d5a6a5ab943494250dce820268e
+  languageName: node
+  linkType: hard
+
 "@algolia/requester-node-http@npm:4.23.3":
   version: 4.23.3
   resolution: "@algolia/requester-node-http@npm:4.23.3"
@@ -203,6 +245,17 @@ __metadata:
     "@algolia/logger-common": "npm:4.23.3"
     "@algolia/requester-common": "npm:4.23.3"
   checksum: 10c0/60e3c12564edb2946b89897263730614386a7bebf83b538be0875e505736a9a262c2fad3aa50cb699174276deb2082d82fa095affce79081198d415ac718d4c1
+  languageName: node
+  linkType: hard
+
+"@algolia/transporter@npm:4.24.0":
+  version: 4.24.0
+  resolution: "@algolia/transporter@npm:4.24.0"
+  dependencies:
+    "@algolia/cache-common": "npm:4.24.0"
+    "@algolia/logger-common": "npm:4.24.0"
+    "@algolia/requester-common": "npm:4.24.0"
+  checksum: 10c0/9eee8e6613c8d2a5562e4df284dc7b0804a7bf80586fd8512ad769dc4829f947a334480378d94efd3cc57ca4d400886eb677786a3c5664f85881093f9e27cab7
   languageName: node
   linkType: hard
 
@@ -7309,7 +7362,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hentaiwiki@workspace:."
   dependencies:
-    "@algolia/client-search": "npm:^4.23.3"
+    "@algolia/client-search": "npm:^4.24.0"
     "@babel/core": "npm:^7.24.7"
     "@babel/eslint-parser": "npm:^7.24.7"
     "@docusaurus/core": "npm:^3.4.0"
