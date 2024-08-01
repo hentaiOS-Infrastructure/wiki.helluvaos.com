@@ -7336,7 +7336,7 @@ __metadata:
     react-icons: "npm:^5.2.1"
     react-loadable: "npm:^5.5.0"
     react-router-dom: "npm:^6.23.1"
-    search-insights: "npm:^2.14.0"
+    search-insights: "npm:^2.15.0"
     stylelint: "npm:^16.6.1"
     typescript: "npm:^5.4.5"
   languageName: unknown
@@ -11939,10 +11939,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"search-insights@npm:^2.14.0":
-  version: 2.14.0
-  resolution: "search-insights@npm:2.14.0"
-  checksum: 10c0/2b404fa30fbd962e1e4831c595801aa97cac3b00047f2f351f7c3baa7b5d701f0c22f61d3e0de12037273fc8b52abf543a9e82a91303c1a5fa5c05395ceece1a
+"search-insights@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "search-insights@npm:2.15.0"
+  checksum: 10c0/fecef0382e49b86c027f5c2fa91692844b50d3296f07e3aba3e181e1d3d62c83e26b0f68cd0abfea3c8ae856cd824c8534b1887c7405d19d2184576d1e3e6445
   languageName: node
   linkType: hard
 
