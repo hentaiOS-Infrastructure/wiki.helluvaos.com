@@ -45,16 +45,21 @@ To obtaining the required platform-tools, [Read here.](/docs/installation/instal
 3. Once you connected your phone to a computer using a USB Cable, check your phone connection to the computer by executing `fastboot devices`
 4. Once the device showed up in fastboot devices, continue with Sideloading the boot image with the following commands:
 
+**It is completely normal for the erasing process of `avb_custom_key` to fail if there's no key flashed. You can safely ignore and continue with the next commands.**
+
 <Tabs
     defaultValue="brooklyn"
     values={[
         {label: 'Google Silicon 1 (gs101)', value: 'brooklyn'},
-        {label: 'Google Silicon 2 (gs201)', value: 'chelsea'}
+        {label: 'Google Silicon 2 (gs201) and 3 (zuma)', value: 'chelsea'}
     ]}>
 <TabItem value="brooklyn">
 
 ``` bash
-cd {directory where you extracted the installkit files}/{devicename}
+cd {directory where you extracted the installkit files}
+fastboot erase avb_custom_key
+fastboot flash avb_custom_key pkmd.bin
+cd {directory name of the device you are using}
 fastboot flash boot boot.img
 fastboot flash dtbo dtbo.img
 fastboot flash vendor_boot vendor_boot.img
@@ -64,12 +69,12 @@ fastboot flash vendor_boot vendor_boot.img
 <TabItem value="chelsea">
 
 ``` bash
-cd {directory where you extracted the installkit files}/{devicename}
-fastboot flash boot boot.img
-fastboot flash dtbo dtbo.img
+cd {directory where you extracted the installkit files}
+fastboot erase avb_custom_key
+fastboot flash avb_custom_key pkmd.bin
+cd {directory name of the device you are using}
 fastboot flash init_boot init_boot.img
 fastboot flash vendor_boot vendor_boot.img
-fastboot flash vendor_kernel_boot vendor_kernel_boot.img
 ```
 
 </TabItem>
@@ -103,3 +108,7 @@ fastboot flash vendor_kernel_boot vendor_kernel_boot.img
 9. With the volume buttons, scroll to "Reboot system now" and press the Power button.
 
     ![Reboot Now](/img/pixel-install-assets/reboot-now.svg)
+
+10. After the OS is flashed and the device has booted, you have the option to reboot into the bootloader and lock it by running the following command:
+'fastboot flashing lock'
+Once this is complete, you can reboot the device back into the system. Please note that locking or unlocking the bootloader will erase all data on your phone.
