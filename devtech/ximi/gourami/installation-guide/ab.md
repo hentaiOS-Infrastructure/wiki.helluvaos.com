@@ -24,6 +24,8 @@ import TabItem from '@theme/TabItem';
 
 3. To obtain the required platform-tools, [Read here.](/docs/installation/installing-requirements)
 
+4. You can download the latest required installkit [here.](https://get.hentaios.com/download?id=344db749b407c9f5&rv=2)
+
 ## Connect your device
 
 1. **Enter Fastboot mode,** make sure your phone turned off. Press and hold the Power and Volume buttons for 3 seconds until the phone turns on. You will be in Fasboot mode.
