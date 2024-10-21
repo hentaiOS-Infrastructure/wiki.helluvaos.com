@@ -1,6 +1,6 @@
 ---
 sidebar_label: Installing
-title: Google Brooksea (Brooklyn/Chelsea) Installation Guide
+title: Google Brooksea (Brooklyn/Chelsea,Newbury) Installation Guide
 description: Installation Guide for installing hentaiOS to Google Brooksea (Google Pixel with Google Silicon) devices
 keywords:
     - install guide
@@ -8,8 +8,10 @@ keywords:
     - brooksea
     - brooklyn
     - chelsea
+    - newbury
     - gs101
     - gs201
+    - zuma
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -30,7 +32,11 @@ Unlocked bootloader required, [Read here](https://source.android.com/docs/core/a
 :::
 
 :::info
-To obtaining the required platform-tools, [Read here.](/docs/installation/installing-requirements)
+To obtain the required platform-tools, [Read here.](/docs/installation/installing-requirements)
+:::
+
+:::info
+To obtain the required installkit press [here.](https://get.hentaios.com/download?id=a54099bc48f074c8&rv=2)
 :::
 
 ::::
@@ -110,5 +116,5 @@ fastboot flash vendor_boot vendor_boot.img
     ![Reboot Now](/img/pixel-install-assets/reboot-now.svg)
 
 10. After the OS is flashed and the device has booted, you have the option to reboot into the bootloader and lock it by running the following command:
-'fastboot flashing lock'
+`fastboot flashing lock`
 Once this is complete, you can reboot the device back into the system. Please note that locking or unlocking the bootloader will erase all data on your phone.

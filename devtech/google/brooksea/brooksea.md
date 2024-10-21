@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Google Brooklyn and Chelsea
+# Google Brooklyn,Chelsea and Newbury
 
-Amercia. Google Silicon G1/G2 shipping devices.
+Google Silicon G1/G2/G3 shipping devices.
