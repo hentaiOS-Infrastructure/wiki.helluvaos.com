@@ -21,10 +21,10 @@
   "dependencies": {
     "@algolia/client-search": "^5.20.1",
     "@babel/core": "^7.26.7",
-    "@docusaurus/core": "^3.4.0",
-    "@docusaurus/plugin-content-docs": "^3.4.0",
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/plugin-content-docs": "^3.7.0",
     "@docusaurus/plugin-sitemap": "^3.7.0",
-    "@docusaurus/preset-classic": "^3.4.0",
+    "@docusaurus/preset-classic": "^3.7.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mdx-js/react": "^3.1.0",
