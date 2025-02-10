@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhentaiwiki=self.webpackChunkhentaiwiki||[]).push([[647],{6252:(e,s,r)=>{r.r(s),r.d(s,{default:()=>h});r(1467);var a=r(7167),i=r(9213),n=r(7035),t=r(1225),u=r(33),c=r(123);function h(e){return(0,c.jsx)(i.e3,{className:(0,a.A)(n.G.wrapper.docsPages),children:(0,c.jsx)(u.A,{children:(0,t.v)(e.route.routes)})})}}}]);
