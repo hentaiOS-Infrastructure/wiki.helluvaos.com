@@ -34,12 +34,17 @@ const config = {
           label: 'Docs',
         },
         {
+          to: 'https://hentaios.com',
+          label: 'Homepage',
+          position: 'left'
+        },
+        {
           to: 'https://blog.hentaios.com',
           label: 'Blog',
           position: 'left'
         },
         {
-          href: 'https://github.com/hentaiOS-Infrastructure/wiki-frontpage-develop',
+          href: 'https://github.com/hentaiOS-Infrastructure/wiki.helluvaos.com',
           label: 'GitHub',
           position: 'right',
         },
@@ -102,6 +107,21 @@ const config = {
       { name: 'keywords', content: 'hentaiOS, helluvaOS, wiki, guide, knowledge base' }
     ],
   },
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org/',
+        '@type': 'Organization',
+        name: 'hentaiOS Open Source',
+        url: 'https://hentaios.com/',
+        logo: 'img/oss_logo.svg',
+      }),
+    },
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
