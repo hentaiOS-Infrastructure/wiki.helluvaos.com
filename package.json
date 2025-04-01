@@ -52,7 +52,7 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
     "prettier": "^3.5.3",
-    "stylelint": "^16.10.0"
+    "stylelint": "^16.17.0"
   },
   "browserslist": {
     "production": [
