@@ -40,7 +40,7 @@
     "typescript": "^5.8.3"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.27.0",
+    "@babel/eslint-parser": "^7.27.1",
     "@docusaurus/types": "^3.7.0",
     "@types/node": "^22.15.3",
     "eslint": "^9.25.1",
