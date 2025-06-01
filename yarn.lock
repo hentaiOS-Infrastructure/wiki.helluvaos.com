@@ -4040,6 +4040,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@docusaurus/module-type-aliases@npm:3.8.0":
+  version: 3.8.0
+  resolution: "@docusaurus/module-type-aliases@npm:3.8.0"
+  dependencies:
+    "@docusaurus/types": "npm:3.8.0"
+    "@types/history": "npm:^4.7.11"
+    "@types/react": "npm:*"
+    "@types/react-router-config": "npm:*"
+    "@types/react-router-dom": "npm:*"
+    react-helmet-async: "npm:@slorber/react-helmet-async@1.3.0"
+    react-loadable: "npm:@docusaurus/react-loadable@6.0.0"
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  checksum: 10c0/2ffb6f633c9cafc39567211152e15f30d2e5cca37459cf914e29002d24208deac4a5c6bcde6b92a065d55e3ecfff88c03f490a689d8ed7a8e2644cb687173fcd
+  languageName: node
+  linkType: hard
+
 "@docusaurus/plugin-content-blog@npm:3.7.0":
   version: 3.7.0
   resolution: "@docusaurus/plugin-content-blog@npm:3.7.0"
@@ -4070,7 +4088,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-content-docs@npm:3.7.0, @docusaurus/plugin-content-docs@npm:^3.7.0":
+"@docusaurus/plugin-content-docs@npm:3.7.0":
   version: 3.7.0
   resolution: "@docusaurus/plugin-content-docs@npm:3.7.0"
   dependencies:
@@ -4095,6 +4113,35 @@ __metadata:
     react: ^18.0.0 || ^19.0.0
     react-dom: ^18.0.0 || ^19.0.0
   checksum: 10c0/eab3810b1b34d0b037cd802747892ece163d818013b4c33a9db40f973df05a6c12a3120f746afa2648b9c2c2b1ec711d6c4552a4cc8e2d904522c355cc02de71
+  languageName: node
+  linkType: hard
+
+"@docusaurus/plugin-content-docs@npm:^3.8.0":
+  version: 3.8.0
+  resolution: "@docusaurus/plugin-content-docs@npm:3.8.0"
+  dependencies:
+    "@docusaurus/core": "npm:3.8.0"
+    "@docusaurus/logger": "npm:3.8.0"
+    "@docusaurus/mdx-loader": "npm:3.8.0"
+    "@docusaurus/module-type-aliases": "npm:3.8.0"
+    "@docusaurus/theme-common": "npm:3.8.0"
+    "@docusaurus/types": "npm:3.8.0"
+    "@docusaurus/utils": "npm:3.8.0"
+    "@docusaurus/utils-common": "npm:3.8.0"
+    "@docusaurus/utils-validation": "npm:3.8.0"
+    "@types/react-router-config": "npm:^5.0.7"
+    combine-promises: "npm:^1.1.0"
+    fs-extra: "npm:^11.1.1"
+    js-yaml: "npm:^4.1.0"
+    lodash: "npm:^4.17.21"
+    schema-dts: "npm:^1.1.2"
+    tslib: "npm:^2.6.0"
+    utility-types: "npm:^3.10.0"
+    webpack: "npm:^5.88.1"
+  peerDependencies:
+    react: ^18.0.0 || ^19.0.0
+    react-dom: ^18.0.0 || ^19.0.0
+  checksum: 10c0/32a07ecd9bf66995fddf53d5341208309ab35c0eb346933281d5e94bc3202d68ff6756056692e7a0058d872e3f937f0bebbc89061c92d2fc883b3fd28aad09cc
   languageName: node
   linkType: hard
 
@@ -4322,6 +4369,30 @@ __metadata:
     react: ^18.0.0 || ^19.0.0
     react-dom: ^18.0.0 || ^19.0.0
   checksum: 10c0/4b5ba21d2d5807a9582cd1fe5280fa0637a7debb8313253793d35435ce92e119406d47564766ec0bf0f93d7d2f8da412883ea4b16972f79bee5bda20ac6f354e
+  languageName: node
+  linkType: hard
+
+"@docusaurus/theme-common@npm:3.8.0":
+  version: 3.8.0
+  resolution: "@docusaurus/theme-common@npm:3.8.0"
+  dependencies:
+    "@docusaurus/mdx-loader": "npm:3.8.0"
+    "@docusaurus/module-type-aliases": "npm:3.8.0"
+    "@docusaurus/utils": "npm:3.8.0"
+    "@docusaurus/utils-common": "npm:3.8.0"
+    "@types/history": "npm:^4.7.11"
+    "@types/react": "npm:*"
+    "@types/react-router-config": "npm:*"
+    clsx: "npm:^2.0.0"
+    parse-numeric-range: "npm:^1.3.0"
+    prism-react-renderer: "npm:^2.3.0"
+    tslib: "npm:^2.6.0"
+    utility-types: "npm:^3.10.0"
+  peerDependencies:
+    "@docusaurus/plugin-content-docs": "*"
+    react: ^18.0.0 || ^19.0.0
+    react-dom: ^18.0.0 || ^19.0.0
+  checksum: 10c0/2333f1182250cc3518c627daec8ccae41698b0861589e5c0b662b968abc77845998bfd2b84abc73f7db8a2f78775f2b35bb83ed062bd9cf1a3c4adb7d26ee055
   languageName: node
   linkType: hard
 
@@ -10116,7 +10187,7 @@ __metadata:
     "@babel/core": "npm:^7.27.4"
     "@babel/eslint-parser": "npm:^7.27.1"
     "@docusaurus/core": "npm:^3.7.0"
-    "@docusaurus/plugin-content-docs": "npm:^3.7.0"
+    "@docusaurus/plugin-content-docs": "npm:^3.8.0"
     "@docusaurus/plugin-sitemap": "npm:^3.8.0"
     "@docusaurus/preset-classic": "npm:^3.7.0"
     "@docusaurus/types": "npm:^3.8.0"
@@ -15506,6 +15577,13 @@ __metadata:
   dependencies:
     loose-envify: "npm:^1.1.0"
   checksum: 10c0/26383305e249651d4c58e6705d5f8425f153211aef95f15161c151f7b8de885f24751b377e4a0b3dd42cce09aad3f87a61dab7636859c0d89b7daf1a1e2a5c78
+  languageName: node
+  linkType: hard
+
+"schema-dts@npm:^1.1.2":
+  version: 1.1.5
+  resolution: "schema-dts@npm:1.1.5"
+  checksum: 10c0/babe23a1577c75c5df79d73acf34af3399e60928eab46f2236a0c4212061f5778d613a31c9e9ec86a2807d20b1ea460673d72d3fe1f64fb7543867460e607f76
   languageName: node
   linkType: hard
 
