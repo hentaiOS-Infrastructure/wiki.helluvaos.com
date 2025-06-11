@@ -22,7 +22,7 @@
     "@algolia/client-search": "^5.25.0",
     "@babel/core": "^7.27.4",
     "@docusaurus/core": "^3.7.0",
-    "@docusaurus/plugin-content-docs": "^3.7.0",
+    "@docusaurus/plugin-content-docs": "^3.8.0",
     "@docusaurus/plugin-sitemap": "^3.8.0",
     "@docusaurus/preset-classic": "^3.7.0",
     "@emotion/react": "^11.14.0",
