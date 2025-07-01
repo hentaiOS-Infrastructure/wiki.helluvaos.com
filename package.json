@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@algolia/client-search": "^5.25.0",
-    "@babel/core": "^7.27.4",
+    "@babel/core": "^7.27.7",
     "@docusaurus/core": "^3.7.0",
     "@docusaurus/plugin-content-docs": "^3.7.0",
     "@docusaurus/plugin-sitemap": "^3.8.1",
