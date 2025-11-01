@@ -79,10 +79,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/client-common@npm:5.39.0":
-  version: 5.39.0
-  resolution: "@algolia/client-common@npm:5.39.0"
-  checksum: 10c0/7db3a68158c39870a928bfc0996bff97bea28b579ee5805b0133d0015d1c78e4947ad423c6944befdc452f8f433337fa01da5cb542b92f77611d162ba08d5244
+"@algolia/client-common@npm:5.42.0":
+  version: 5.42.0
+  resolution: "@algolia/client-common@npm:5.42.0"
+  checksum: 10c0/138c0df97cb05d221b443835c06ac8bc389b016089492822db574f87fe05ed993c5c332974503adefecde7ed9b0a250e3e9ad485fc5c901503f2c41e5d3376aa
   languageName: node
   linkType: hard
 
@@ -134,15 +134,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/client-search@npm:^5.39.0":
-  version: 5.39.0
-  resolution: "@algolia/client-search@npm:5.39.0"
+"@algolia/client-search@npm:^5.42.0":
+  version: 5.42.0
+  resolution: "@algolia/client-search@npm:5.42.0"
   dependencies:
-    "@algolia/client-common": "npm:5.39.0"
-    "@algolia/requester-browser-xhr": "npm:5.39.0"
-    "@algolia/requester-fetch": "npm:5.39.0"
-    "@algolia/requester-node-http": "npm:5.39.0"
-  checksum: 10c0/2edaddc0f73f9880bbd152da8ead88fbb5b8914b393398d220b92fae2493f165e797b1ff17181334dc32b1140e0de215cb5387614f572dcca1393c8758656734
+    "@algolia/client-common": "npm:5.42.0"
+    "@algolia/requester-browser-xhr": "npm:5.42.0"
+    "@algolia/requester-fetch": "npm:5.42.0"
+    "@algolia/requester-node-http": "npm:5.42.0"
+  checksum: 10c0/924004c973b907a854e6405f8c82d5fd9cdb76502f43297c1def159c14271300913541536313059b5694a90ed46563fca918d125c6eef705177785848aec28d7
   languageName: node
   linkType: hard
 
@@ -198,12 +198,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/requester-browser-xhr@npm:5.39.0":
-  version: 5.39.0
-  resolution: "@algolia/requester-browser-xhr@npm:5.39.0"
+"@algolia/requester-browser-xhr@npm:5.42.0":
+  version: 5.42.0
+  resolution: "@algolia/requester-browser-xhr@npm:5.42.0"
   dependencies:
-    "@algolia/client-common": "npm:5.39.0"
-  checksum: 10c0/05caa1e95a1e35e943e36ee89f9b2ff8913d9064777fd3d2731af3eebecc9fc2d78a95727bfe5ed72931373975f672909235521afeeb23a5c49bca67744c11fe
+    "@algolia/client-common": "npm:5.42.0"
+  checksum: 10c0/a2a8118952d9c210bb6e5ca873df1a1316ae0ad5d64fbb5541ef7f88a8ab882b1bb7d026ca20a4a90dc674ea7aa9b6d4f6a8da99f6b40d0bb3b70a7e49e8049c
   languageName: node
   linkType: hard
 
@@ -216,12 +216,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/requester-fetch@npm:5.39.0":
-  version: 5.39.0
-  resolution: "@algolia/requester-fetch@npm:5.39.0"
+"@algolia/requester-fetch@npm:5.42.0":
+  version: 5.42.0
+  resolution: "@algolia/requester-fetch@npm:5.42.0"
   dependencies:
-    "@algolia/client-common": "npm:5.39.0"
-  checksum: 10c0/49476248a5b9582abe4b78f7c71eefe795e0b80ddc99e1b03b11472baf2eed0bf17ac68615433a03a1d609cab95b9452020b2a827e672b77b6fe1f2c65d249bf
+    "@algolia/client-common": "npm:5.42.0"
+  checksum: 10c0/d148b58a48f87cdd7b6d1a84fe8532de3430a098c3edcef5d9c44eaa260439f7e66d3f7138c757554efef4fe1f4aee784667f06f50ddcfa70b66804a18ff0f59
   languageName: node
   linkType: hard
 
@@ -234,12 +234,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/requester-node-http@npm:5.39.0":
-  version: 5.39.0
-  resolution: "@algolia/requester-node-http@npm:5.39.0"
+"@algolia/requester-node-http@npm:5.42.0":
+  version: 5.42.0
+  resolution: "@algolia/requester-node-http@npm:5.42.0"
   dependencies:
-    "@algolia/client-common": "npm:5.39.0"
-  checksum: 10c0/d79cb621af7a98d50532692836b25ad0aef69c424eaa3f12dc623a6a73c5c2365ac079fbf93ef76ce56b695f3feb7115a718fac3ad4d645ba15b6a5f18462925
+    "@algolia/client-common": "npm:5.42.0"
+  checksum: 10c0/eef184935e649b14894bda9e82aac2010e8ebe5ce4f5133bfe0d72bbf356181fc82b503d51a4fc00a6debe751abe2138009a2f37825b710075433d85c78b38ee
   languageName: node
   linkType: hard
 
@@ -10945,7 +10945,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hentaiwiki@workspace:."
   dependencies:
-    "@algolia/client-search": "npm:^5.39.0"
+    "@algolia/client-search": "npm:^5.42.0"
     "@babel/core": "npm:^7.28.4"
     "@babel/eslint-parser": "npm:^7.28.4"
     "@docusaurus/core": "npm:^3.7.0"
