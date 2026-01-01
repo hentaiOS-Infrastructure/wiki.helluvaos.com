@@ -19,7 +19,7 @@
     "dev": "docusaurus start --host 0.0.0.0"
   },
   "dependencies": {
-    "@algolia/client-search": "^5.45.0",
+    "@algolia/client-search": "^5.46.2",
     "@babel/core": "^7.28.5",
     "@docusaurus/core": "^3.7.0",
     "@docusaurus/plugin-content-docs": "^3.7.0",
