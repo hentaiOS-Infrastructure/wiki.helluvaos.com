@@ -4303,7 +4303,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/core@npm:3.7.0, @docusaurus/core@npm:^3.7.0":
+"@docusaurus/core@npm:3.7.0":
   version: 3.7.0
   resolution: "@docusaurus/core@npm:3.7.0"
   dependencies:
@@ -4359,7 +4359,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/core@npm:3.9.2":
+"@docusaurus/core@npm:3.9.2, @docusaurus/core@npm:^3.9.2":
   version: 3.9.2
   resolution: "@docusaurus/core@npm:3.9.2"
   dependencies:
@@ -11023,7 +11023,7 @@ __metadata:
     "@algolia/client-search": "npm:^5.46.2"
     "@babel/core": "npm:^7.28.5"
     "@babel/eslint-parser": "npm:^7.28.5"
-    "@docusaurus/core": "npm:^3.7.0"
+    "@docusaurus/core": "npm:^3.9.2"
     "@docusaurus/plugin-content-docs": "npm:^3.7.0"
     "@docusaurus/plugin-sitemap": "npm:^3.9.2"
     "@docusaurus/preset-classic": "npm:^3.7.0"
